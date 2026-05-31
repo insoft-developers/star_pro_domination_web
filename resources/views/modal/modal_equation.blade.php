@@ -7,8 +7,7 @@
             </div>
 
             <div class="modal-body">
-                <p>Start typing math below:</p>
-                <math-field id="mf" virtual-keyboard-mode="off"></math-field>
+                
 
 
             </div>

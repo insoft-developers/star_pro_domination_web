@@ -58,7 +58,7 @@
 
         math-field {
             width: 100%;
-            min-height: 250px;
+            min-height: 80px;
 
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -68,6 +68,7 @@
             font-size: 24px;
 
             display: block;
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -176,7 +177,7 @@
             <img src="{{ asset('images') }}/ajax-loader.gif" class="ajax-loader">
         </div>
 
-        @include('modal.modal_equation')
+
     </div>
     <!-- ./wrapper -->
 
@@ -276,53 +277,6 @@
     <script src="{{ asset('theme') }}/plugins/ckeditor/ckeditor.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/mathlive"></script>
 
-
-
-
-    <script>
-        CKEDITOR.plugins.add('equation', {
-            init: function(editor) {
-                editor.ui.addButton('Equation', {
-                    label: 'Insert Equation',
-                    command: 'openEquation',
-                    toolbar: 'insert',
-                    icon: 'https://cdn-icons-png.flaticon.com/512/2103/2103633.png'
-                });
-
-                editor.addCommand('openEquation', {
-                    exec: function(editor) {
-                        openEquationModal(editor);
-                    }
-                });
-            }
-        });
-
-
-        function openEquationModal(editor) {
-            window.currentEditor = editor;
-            $("#eqModal").modal("show");
-            $("#modal-add").modal("hide");
-        }
-
-        function closeEquation() {
-            $("#eqModal").modal("hide");
-            $("#modal-add").modal('show');
-
-        }
-
-
-        function insertEquation() {
-            // let latex = document.getElementById('latexInput').value;
-            let latex = $('#mf').get(0).value;
-
-
-            window.currentEditor.insertHtml(
-                '<span class="math-tex">\\(' + latex + '\\)</span>'
-            );
-
-            closeEquation();
-        }
-    </script>
 
     @if ($view == 'laporan-tryout')
     <script>
@@ -3115,11 +3069,26 @@
     @if ($view == 'detail')
 
     <script>
+        $('#eqModal').on('hidden.bs.modal', function() {
+
+            if ($('#modal-add').hasClass('show')) {
+                $('body').addClass('modal-open');
+            }
+
+        });
         CKEDITOR.config.versionCheck = false;
 
-        CKEDITOR.replace('soal', {
-            extraPlugins: 'equation'
-        });
+        CKEDITOR.replace('soal');
+
+        function insertEquation(mathFieldId, editorId) {
+            let mf = document.getElementById('mf-soal');
+            let latex = document.getElementById(mathFieldId).value;
+
+            CKEDITOR.instances[editorId].insertHtml(
+                '<span class="math-tex">\\(' + latex + '\\)</span>'
+            );
+            mf.value = "";
+        }
 
 
         var table = $('#detail_table').DataTable({
@@ -5789,7 +5758,11 @@
     </script>
     @endif
 
-
+    <style>
+        .ML__virtual-keyboard-toggle {
+            display: none !important;
+        }
+    </style>
 </body>
 
 </html>
