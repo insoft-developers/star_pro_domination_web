@@ -1,0 +1,4 @@
+[06-Dec-2025 23:45:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Console/Kernel.php on line 8

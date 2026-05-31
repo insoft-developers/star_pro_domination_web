@@ -1,0 +1,248 @@
+[29-Aug-2024 07:07:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php on line 7
+[29-Aug-2024 07:07:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Setting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Setting.php on line 7
+[06-Dec-2025 16:02:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php on line 7
+[06-Dec-2025 16:05:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalDetail.php on line 7
+[06-Dec-2025 16:16:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/KategoriVideo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/KategoriVideo.php on line 7
+[06-Dec-2025 16:17:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Kelas.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Kelas.php on line 7
+[06-Dec-2025 16:30:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/News.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/News.php on line 7
+[06-Dec-2025 16:58:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Notif.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Notif.php on line 7
+[06-Dec-2025 17:26:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Qanswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Qanswer.php on line 7
+[06-Dec-2025 17:37:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Tkp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Tkp.php on line 7
+[06-Dec-2025 17:38:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TkpAnswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TkpAnswer.php on line 7
+[06-Dec-2025 21:30:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoal.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoal.php on line 7
+[06-Dec-2025 21:34:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalSession.php on line 7
+[06-Dec-2025 21:39:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Contact.php on line 7
+[06-Dec-2025 21:41:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Information.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Information.php on line 7
+[06-Dec-2025 21:51:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Periode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Periode.php on line 7
+[06-Dec-2025 21:56:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Quiz.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Quiz.php on line 7
+[06-Dec-2025 21:59:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/QuizSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/QuizSession.php on line 7
+[06-Dec-2025 22:09:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TobkVideo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TobkVideo.php on line 7
+[06-Dec-2025 22:13:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutReport.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutReport.php on line 7
+[06-Dec-2025 23:46:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Admin.php on line 7
+[06-Dec-2025 23:46:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoal.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoal.php on line 7
+[06-Dec-2025 23:46:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalAnswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalAnswer.php on line 7
+[06-Dec-2025 23:46:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalDetail.php on line 7
+[06-Dec-2025 23:46:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/BankSoalSession.php on line 7
+[06-Dec-2025 23:46:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Bimbingan.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Bimbingan.php on line 7
+[06-Dec-2025 23:46:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Category.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Category.php on line 7
+[06-Dec-2025 23:46:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Chat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Chat.php on line 7
+[06-Dec-2025 23:46:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Comment.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Comment.php on line 7
+[06-Dec-2025 23:46:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Contact.php on line 7
+[06-Dec-2025 23:46:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Information.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Information.php on line 7
+[06-Dec-2025 23:46:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/KategoriVideo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/KategoriVideo.php on line 7
+[06-Dec-2025 23:46:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Kelas.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Kelas.php on line 7
+[06-Dec-2025 23:46:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Like.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Like.php on line 7
+[06-Dec-2025 23:46:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/MainMenu.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/MainMenu.php on line 7
+[06-Dec-2025 23:46:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Mapel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Mapel.php on line 7
+[06-Dec-2025 23:46:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/MateriPembelajaran.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/MateriPembelajaran.php on line 7
+[06-Dec-2025 23:46:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/News.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/News.php on line 7
+[06-Dec-2025 23:46:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Notif.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Notif.php on line 7
+[06-Dec-2025 23:46:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Periode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Periode.php on line 7
+[06-Dec-2025 23:46:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Promo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Promo.php on line 7
+[06-Dec-2025 23:46:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Qanswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Qanswer.php on line 7
+[06-Dec-2025 23:46:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Question.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Question.php on line 7
+[06-Dec-2025 23:46:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Quiz.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Quiz.php on line 7
+[06-Dec-2025 23:46:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/QuizAnswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/QuizAnswer.php on line 7
+[06-Dec-2025 23:46:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/QuizHeader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/QuizHeader.php on line 7
+[06-Dec-2025 23:46:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/QuizSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/QuizSession.php on line 7
+[06-Dec-2025 23:46:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Ref.php on line 7
+[06-Dec-2025 23:46:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/School.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/School.php on line 7
+[06-Dec-2025 23:46:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Setting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Setting.php on line 7
+[06-Dec-2025 23:46:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Slider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Slider.php on line 7
+[06-Dec-2025 23:46:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/Tkp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/Tkp.php on line 7
+[06-Dec-2025 23:46:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TkpAnswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TkpAnswer.php on line 7
+[06-Dec-2025 23:46:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TkpDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TkpDetail.php on line 7
+[06-Dec-2025 23:46:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TkpSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TkpSession.php on line 7
+[06-Dec-2025 23:46:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TobkVideo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TobkVideo.php on line 7
+[06-Dec-2025 23:46:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryOut.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryOut.php on line 7
+[06-Dec-2025 23:46:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutAnswer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutAnswer.php on line 7
+[06-Dec-2025 23:46:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutDetail.php on line 7
+[06-Dec-2025 23:46:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutReport.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutReport.php on line 7
+[06-Dec-2025 23:46:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutSession.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/TryoutSession.php on line 7
+[06-Dec-2025 23:46:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/gens7193/public_html/bimbelspd.my.id/app/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/app/User.php on line 10

@@ -1,0 +1,1392 @@
+[25-Aug-2025 15:37:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[25-Aug-2025 15:38:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[25-Aug-2025 15:38:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[25-Aug-2025 15:38:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[25-Aug-2025 15:39:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[25-Aug-2025 15:39:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[25-Aug-2025 15:40:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[25-Aug-2025 15:40:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[25-Aug-2025 15:40:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[25-Aug-2025 18:11:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[25-Aug-2025 18:12:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[25-Aug-2025 18:14:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[25-Aug-2025 18:14:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[25-Aug-2025 18:18:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[25-Aug-2025 18:21:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[25-Aug-2025 18:25:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[25-Aug-2025 18:27:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[25-Aug-2025 21:09:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[25-Aug-2025 21:12:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[25-Aug-2025 21:12:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[26-Aug-2025 19:09:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[26-Aug-2025 19:09:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[26-Aug-2025 19:09:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[26-Aug-2025 19:09:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-Oct-2025 01:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[08-Oct-2025 01:49:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-Oct-2025 01:49:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-Oct-2025 02:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[08-Oct-2025 02:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[08-Oct-2025 02:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-Oct-2025 02:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-Oct-2025 02:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Oct-2025 02:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-Oct-2025 02:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-Oct-2025 02:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[08-Oct-2025 02:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-Oct-2025 02:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-Oct-2025 03:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[08-Oct-2025 03:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-Oct-2025 03:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-Oct-2025 03:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-Oct-2025 03:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[08-Oct-2025 03:21:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-Oct-2025 03:21:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-Oct-2025 03:21:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Oct-2025 03:21:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[08-Oct-2025 03:26:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[19-Oct-2025 19:34:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[19-Oct-2025 19:34:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[19-Oct-2025 19:34:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[19-Oct-2025 19:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[19-Oct-2025 19:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[19-Oct-2025 19:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[19-Oct-2025 19:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[19-Oct-2025 19:34:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[31-Oct-2025 12:24:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[31-Oct-2025 12:24:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[01-Dec-2025 01:42:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[01-Dec-2025 01:42:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[01-Dec-2025 01:42:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[01-Dec-2025 01:43:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[01-Dec-2025 01:43:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[01-Dec-2025 01:43:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[01-Dec-2025 01:55:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[01-Dec-2025 01:55:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[01-Dec-2025 01:55:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[06-Dec-2025 23:01:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[06-Dec-2025 23:47:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[06-Dec-2025 23:47:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[06-Dec-2025 23:47:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[06-Dec-2025 23:47:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[06-Dec-2025 23:47:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[06-Dec-2025 23:47:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/hashing.php on line 32
+[06-Dec-2025 23:47:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php on line 19
+[06-Dec-2025 23:47:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[06-Dec-2025 23:47:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[06-Dec-2025 23:47:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[06-Dec-2025 23:47:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[06-Dec-2025 23:47:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[23-Dec-2025 20:18:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[23-Dec-2025 20:18:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[23-Dec-2025 20:18:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[23-Dec-2025 20:18:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[25-Dec-2025 16:37:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[25-Dec-2025 16:37:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[25-Dec-2025 16:37:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[25-Dec-2025 16:37:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[27-Dec-2025 03:40:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[27-Dec-2025 03:40:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[27-Dec-2025 03:40:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[27-Dec-2025 03:40:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[27-Dec-2025 04:23:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[27-Dec-2025 04:23:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[27-Dec-2025 04:23:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[27-Dec-2025 04:23:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[02-Jan-2026 05:11:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-Jan-2026 10:10:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-Jan-2026 10:10:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-Jan-2026 10:10:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-Jan-2026 10:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[12-Jan-2026 01:28:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[12-Jan-2026 01:28:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[13-Jan-2026 12:25:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[13-Jan-2026 12:25:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[13-Jan-2026 12:25:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[13-Jan-2026 12:25:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[13-Jan-2026 12:25:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[13-Jan-2026 12:25:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[13-Jan-2026 12:25:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[13-Jan-2026 12:26:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[13-Jan-2026 12:27:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[13-Jan-2026 12:27:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[18-Jan-2026 08:59:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[18-Jan-2026 08:59:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[18-Jan-2026 09:43:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[18-Jan-2026 09:43:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[18-Jan-2026 10:39:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[18-Jan-2026 10:39:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[18-Jan-2026 22:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[19-Jan-2026 08:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[21-Jan-2026 15:23:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[21-Jan-2026 15:23:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[21-Jan-2026 15:59:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[21-Jan-2026 15:59:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[21-Jan-2026 23:26:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[21-Jan-2026 23:26:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[21-Jan-2026 23:31:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[21-Jan-2026 23:31:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[21-Jan-2026 23:55:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[21-Jan-2026 23:55:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[22-Jan-2026 00:00:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[22-Jan-2026 00:00:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[01-Feb-2026 21:44:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[01-Feb-2026 21:44:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[01-Feb-2026 21:44:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[01-Feb-2026 21:44:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[01-Feb-2026 21:44:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[12-Feb-2026 23:30:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[12-Feb-2026 23:31:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[13-Feb-2026 00:15:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[13-Feb-2026 00:15:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[13-Feb-2026 01:01:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[13-Feb-2026 01:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[28-Feb-2026 21:16:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[28-Feb-2026 21:25:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[28-Feb-2026 21:25:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[28-Feb-2026 21:30:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[28-Feb-2026 21:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[23-Mar-2026 09:55:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[23-Mar-2026 09:55:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[23-Mar-2026 09:55:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[23-Mar-2026 09:55:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[23-Mar-2026 09:58:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[24-Mar-2026 00:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[24-Mar-2026 00:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[24-Mar-2026 00:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[24-Mar-2026 00:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[24-Mar-2026 00:44:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[24-Mar-2026 00:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[24-Mar-2026 00:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[24-Mar-2026 00:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[24-Mar-2026 00:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[24-Mar-2026 00:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php on line 19
+[24-Mar-2026 00:52:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[26-Mar-2026 19:21:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[26-Mar-2026 19:21:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[26-Mar-2026 19:21:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[26-Mar-2026 19:21:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[27-Mar-2026 13:47:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[31-Mar-2026 01:25:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[31-Mar-2026 01:25:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[31-Mar-2026 01:25:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[31-Mar-2026 01:25:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[31-Mar-2026 01:29:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[31-Mar-2026 01:41:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[31-Mar-2026 01:41:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[31-Mar-2026 01:41:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[31-Mar-2026 01:41:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[31-Mar-2026 01:41:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php on line 19
+[31-Mar-2026 01:41:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[02-May-2026 22:34:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[02-May-2026 22:34:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[02-May-2026 22:34:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[02-May-2026 22:34:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[02-May-2026 22:34:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[02-May-2026 22:34:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[02-May-2026 22:34:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[02-May-2026 22:34:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[02-May-2026 22:34:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[02-May-2026 22:35:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[03-May-2026 10:47:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[03-May-2026 10:47:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[03-May-2026 10:47:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[03-May-2026 10:47:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[03-May-2026 10:47:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[03-May-2026 10:47:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[03-May-2026 10:47:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[03-May-2026 10:47:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[03-May-2026 10:47:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[03-May-2026 10:49:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[03-May-2026 11:52:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[03-May-2026 11:52:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[03-May-2026 11:52:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[03-May-2026 11:53:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[03-May-2026 11:53:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[03-May-2026 11:53:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[03-May-2026 11:53:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[03-May-2026 11:53:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[03-May-2026 11:53:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[03-May-2026 11:54:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[05-May-2026 11:16:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 11:16:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 11:16:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 11:16:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 11:16:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 11:16:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 11:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 11:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 11:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 11:17:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[05-May-2026 12:13:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 12:13:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 12:13:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 12:13:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 12:13:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 12:13:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 12:13:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 12:13:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 12:13:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 12:14:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[05-May-2026 19:58:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 19:58:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 19:58:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 19:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 19:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 19:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 19:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 19:58:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 19:58:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 20:41:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 20:41:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 20:41:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 20:41:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 20:41:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 20:41:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 20:41:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 20:41:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 20:41:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 20:41:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[05-May-2026 21:26:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 21:26:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 21:26:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 21:26:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 21:26:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 21:26:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 21:26:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 21:26:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 21:26:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 21:50:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 21:50:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 21:50:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 21:50:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 21:50:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 21:50:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 21:50:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 21:50:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 21:50:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[05-May-2026 23:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[05-May-2026 23:38:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[08-May-2026 14:00:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[08-May-2026 14:00:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[08-May-2026 14:00:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[08-May-2026 14:00:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[08-May-2026 14:00:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[08-May-2026 14:00:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[08-May-2026 14:01:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[08-May-2026 14:01:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/filesystems.php on line 16
+[08-May-2026 14:01:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[23-May-2026 11:58:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[23-May-2026 11:59:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[23-May-2026 11:59:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[23-May-2026 11:59:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[23-May-2026 12:02:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php on line 19
+[23-May-2026 12:02:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[23-May-2026 12:03:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[23-May-2026 12:04:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[23-May-2026 12:04:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[23-May-2026 12:05:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17
+[27-May-2026 20:18:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/app.php on line 16
+[27-May-2026 20:19:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/broadcasting.php on line 18
+[27-May-2026 20:19:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/cache.php on line 21
+[27-May-2026 20:19:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/database.php on line 18
+[27-May-2026 20:21:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/logging.php on line 19
+[27-May-2026 20:21:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/mail.php on line 19
+[27-May-2026 20:22:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/queue.php on line 16
+[27-May-2026 20:23:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/services.php on line 18
+[27-May-2026 20:23:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gens7193/public_html/bimbelspd.my.id/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/session.php on line 21
+[27-May-2026 20:24:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/gens7193/public_html/bimbelspd.my.id/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/config/view.php on line 17

@@ -1,0 +1,8 @@
+[24-Mar-2026 00:52:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/gens7193/public_html/bimbelspd.my.id/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/bootstrap/app.php on line 14
+[31-Mar-2026 01:41:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/gens7193/public_html/bimbelspd.my.id/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/bootstrap/app.php on line 14

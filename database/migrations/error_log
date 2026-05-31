@@ -1,0 +1,340 @@
+[05-Dec-2025 02:05:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php on line 7
+[05-Dec-2025 02:18:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php on line 7
+[05-Dec-2025 02:36:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php on line 7
+[05-Dec-2025 03:09:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_155043_create_bank_soal_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_155043_create_bank_soal_details_table.php on line 7
+[05-Dec-2025 03:12:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_122606_create_bank_soal_sessions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_122606_create_bank_soal_sessions_table.php on line 7
+[05-Dec-2025 03:33:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php on line 7
+[05-Dec-2025 03:42:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php on line 7
+[05-Dec-2025 03:48:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php on line 7
+[05-Dec-2025 03:57:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php on line 7
+[06-Dec-2025 23:44:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[06-Dec-2025 23:44:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[06-Dec-2025 23:44:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_13_123810_make_table_quiz.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_13_123810_make_table_quiz.php on line 7
+[06-Dec-2025 23:44:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php on line 7
+[06-Dec-2025 23:44:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_095851_create_table_jawaban.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_095851_create_table_jawaban.php on line 7
+[06-Dec-2025 23:44:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_22_123717_create_table_slider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_22_123717_create_table_slider.php on line 7
+[06-Dec-2025 23:44:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_012353_create_table_informasi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_012353_create_table_informasi.php on line 7
+[06-Dec-2025 23:44:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php on line 7
+[06-Dec-2025 23:44:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_071135_create_table_berita.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_071135_create_table_berita.php on line 7
+[06-Dec-2025 23:44:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_25_012713_add_idkelas_to_user_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_25_012713_add_idkelas_to_user_table.php on line 7
+[06-Dec-2025 23:44:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_26_172643_make_table_mapel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_26_172643_make_table_mapel.php on line 7
+[06-Dec-2025 23:44:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_013911_create_table_bimbingan.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_013911_create_table_bimbingan.php on line 7
+[06-Dec-2025 23:44:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php on line 7
+[06-Dec-2025 23:45:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_01_044731_create_table_comments.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_01_044731_create_table_comments.php on line 7
+[06-Dec-2025 23:45:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_03_035958_create_table_likes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_03_035958_create_table_likes.php on line 7
+[06-Dec-2025 23:45:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_05_144411_create_kelas_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_05_144411_create_kelas_table.php on line 7
+[06-Dec-2025 23:45:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_06_020024_create_try_outs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_06_020024_create_try_outs_table.php on line 7
+[06-Dec-2025 23:45:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_07_044655_create_try_out_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_07_044655_create_try_out_details_table.php on line 7
+[06-Dec-2025 23:45:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_054847_create_tryout_sessions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_054847_create_tryout_sessions_table.php on line 7
+[06-Dec-2025 23:45:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_082710_create_tryout_answers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_082710_create_tryout_answers_table.php on line 7
+[06-Dec-2025 23:45:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_30_124232_create_tryout_reports_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_30_124232_create_tryout_reports_table.php on line 7
+[06-Dec-2025 23:45:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_043514_create_materi_pembelajarans_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_043514_create_materi_pembelajarans_table.php on line 7
+[06-Dec-2025 23:45:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_154302_create_bank_soals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_154302_create_bank_soals_table.php on line 7
+[06-Dec-2025 23:45:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_155043_create_bank_soal_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_155043_create_bank_soal_details_table.php on line 7
+[06-Dec-2025 23:45:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_122606_create_bank_soal_sessions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_122606_create_bank_soal_sessions_table.php on line 7
+[06-Dec-2025 23:45:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_130727_create_bank_soal_answers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_130727_create_bank_soal_answers_table.php on line 7
+[06-Dec-2025 23:45:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_161736_create_kategori_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_02_161736_create_kategori_videos_table.php on line 7
+[06-Dec-2025 23:45:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_033118_create_tobk_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_033118_create_tobk_videos_table.php on line 7
+[06-Dec-2025 23:45:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_051517_create_questions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_051517_create_questions_table.php on line 7
+[06-Dec-2025 23:45:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_052111_create_qanswers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_03_052111_create_qanswers_table.php on line 7
+[06-Dec-2025 23:45:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_04_050308_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_04_050308_create_admins_table.php on line 7
+[06-Dec-2025 23:45:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php on line 7
+[06-Dec-2025 23:45:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_11_032929_create_chats_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_11_032929_create_chats_table.php on line 7
+[06-Dec-2025 23:45:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_29_231848_create_quiz_headers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_29_231848_create_quiz_headers_table.php on line 7
+[06-Dec-2025 23:45:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php on line 7
+[06-Dec-2025 23:45:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_13_221409_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_13_221409_create_contacts_table.php on line 7
+[06-Dec-2025 23:45:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php on line 7
+[06-Dec-2025 23:45:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_08_09_154417_create_refs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_08_09_154417_create_refs_table.php on line 7
+[06-Dec-2025 23:45:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_175717_create_tkps_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_175717_create_tkps_table.php on line 7
+[06-Dec-2025 23:45:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php on line 7
+[06-Dec-2025 23:48:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[06-Dec-2025 23:48:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[06-Dec-2025 23:48:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_13_123810_make_table_quiz.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_13_123810_make_table_quiz.php on line 7
+[06-Dec-2025 23:48:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_061025_create_table_quiz_session.php on line 7
+[06-Dec-2025 23:48:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_095851_create_table_jawaban.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_15_095851_create_table_jawaban.php on line 7
+[06-Dec-2025 23:48:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_22_123717_create_table_slider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_22_123717_create_table_slider.php on line 7
+[06-Dec-2025 23:48:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_012353_create_table_informasi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_012353_create_table_informasi.php on line 7
+[06-Dec-2025 23:48:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_051918_create_table_promo.php on line 7
+[06-Dec-2025 23:48:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_071135_create_table_berita.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_071135_create_table_berita.php on line 7
+[06-Dec-2025 23:48:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_162032_create_table_setting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_23_162032_create_table_setting.php on line 7
+[06-Dec-2025 23:48:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_25_012713_add_idkelas_to_user_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_25_012713_add_idkelas_to_user_table.php on line 7
+[06-Dec-2025 23:48:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_26_172643_make_table_mapel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_26_172643_make_table_mapel.php on line 7
+[06-Dec-2025 23:48:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_013911_create_table_bimbingan.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_013911_create_table_bimbingan.php on line 7
+[06-Dec-2025 23:48:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_02_27_042448_create_table_category.php on line 7
+[06-Dec-2025 23:48:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_01_044731_create_table_comments.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_01_044731_create_table_comments.php on line 7
+[06-Dec-2025 23:48:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_03_035958_create_table_likes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_03_035958_create_table_likes.php on line 7
+[06-Dec-2025 23:48:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_05_144411_create_kelas_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_05_144411_create_kelas_table.php on line 7
+[06-Dec-2025 23:48:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_06_020024_create_try_outs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_06_020024_create_try_outs_table.php on line 7
+[06-Dec-2025 23:48:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_07_044655_create_try_out_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_07_044655_create_try_out_details_table.php on line 7
+[06-Dec-2025 23:48:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_054847_create_tryout_sessions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_054847_create_tryout_sessions_table.php on line 7
+[06-Dec-2025 23:48:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_082710_create_tryout_answers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_08_082710_create_tryout_answers_table.php on line 7
+[06-Dec-2025 23:48:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_30_124232_create_tryout_reports_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_03_30_124232_create_tryout_reports_table.php on line 7
+[06-Dec-2025 23:48:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_043514_create_materi_pembelajarans_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_01_043514_create_materi_pembelajarans_table.php on line 7
+[06-Dec-2025 23:48:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_04_050308_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_04_050308_create_admins_table.php on line 7
+[06-Dec-2025 23:48:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_09_070157_create_notifs_table.php on line 7
+[06-Dec-2025 23:48:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_11_032929_create_chats_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_11_032929_create_chats_table.php on line 7
+[06-Dec-2025 23:48:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_29_231848_create_quiz_headers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_04_29_231848_create_quiz_headers_table.php on line 7
+[06-Dec-2025 23:48:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_11_122507_create_main_menus_table.php on line 7
+[06-Dec-2025 23:48:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_13_221409_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_13_221409_create_contacts_table.php on line 7
+[06-Dec-2025 23:48:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_05_16_204207_create_schools_table.php on line 7
+[06-Dec-2025 23:48:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_08_09_154417_create_refs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_08_09_154417_create_refs_table.php on line 7
+[06-Dec-2025 23:48:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_175717_create_tkps_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_175717_create_tkps_table.php on line 7
+[06-Dec-2025 23:49:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180235_create_tkp_details_table.php on line 7
+[06-Dec-2025 23:49:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180826_create_tkp_sessions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180826_create_tkp_sessions_table.php on line 7
+[06-Dec-2025 23:49:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180856_create_tkp_answers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_11_15_180856_create_tkp_answers_table.php on line 7
+[06-Dec-2025 23:49:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_12_09_212132_create_periodes_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/migrations/2023_12_09_212132_create_periodes_table.php on line 7

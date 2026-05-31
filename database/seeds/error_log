@@ -1,0 +1,4 @@
+[06-Dec-2025 23:49:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/gens7193/public_html/bimbelspd.my.id/database/seeds/DatabaseSeeder.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/database/seeds/DatabaseSeeder.php on line 5

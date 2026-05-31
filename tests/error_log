@@ -1,0 +1,4 @@
+[05-Dec-2025 00:44:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/gens7193/public_html/bimbelspd.my.id/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gens7193/public_html/bimbelspd.my.id/tests/TestCase.php on line 7
