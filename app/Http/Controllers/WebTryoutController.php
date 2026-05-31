@@ -417,11 +417,19 @@ class WebTryoutController extends Controller
            })
            
            ->addColumn('soal', function($detail){
-               if(! empty($detail->gambar_soal)) {
-                   return '<div><a href="'.asset('images/question/').'/'.$detail->gambar_soal.'" target="_blank"><img style="width:90px;" class="img-responsive" src="'.asset('images/question/').'/'.$detail->gambar_soal.'"></a><small onclick="deleteImage('.$detail->id.', 0)" style="color:red;cursor:pointer;"><i class="fa fa-trash"></i> Delete</small><br>'.$detail->soal.'</div>';
-               } else {
-                   return '<div>'.$detail->soal.'</div>';
-               }
+               $html = '';
+               $gambar =  '<a href="'.asset('images/question/').'/'.$detail->gambar_soal.'" target="_blank"><img style="width:90px;" class="img-responsive" src="'.asset('images/question/').'/'.$detail->gambar_soal.'"></a><small onclick="deleteImage('.$detail->id.', 0)" style="color:red;cursor:pointer;"><i class="fa fa-trash"></i> Delete</small>';
+               $soal = $detail->soal ?? '';
+               $bawah = $detail->soal_bawah ?? '';
+
+                $html .= $soal;
+                if(! empty($detail->gambar_soal)) {
+                    $html .= $gambar;
+                }
+                
+                $html .= $bawah;
+
+                return $html;
                
            })
            

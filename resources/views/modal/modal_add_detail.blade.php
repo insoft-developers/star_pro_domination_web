@@ -19,20 +19,47 @@
                                         <label>No Soal</label>
                                         <input type="text" class="form-control" id="no_soal" name="no_soal" required />
                                     </div>
+                                    <div class="form-group">
+                                        <label>Soal</label>
+                                        <span id="soal-latex-container" style="display: none;">
+                                            <math-field id="mf-soal" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-soal','soal')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-soal')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-soal-latex-container" onclick="hideEquation('soal-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-soal-latex-container" onclick="showEquation('soal-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
+                                        <textarea class="form-control" id="soal" name="soal" required></textarea>
+                                    </div>
 
                                     <div class="form-group">
                                         <label>Gambar Soal</label>
                                         <input type="file" class="form-control" id="gambar_soal" name="gambar_soal">
                                     </div>
                                     <div class="form-group">
+                                        <label>Lanjutan Soal Setelah Gambar (opsional)</label>
+                                        <span id="soal-bawah-latex-container" style="display: none;">
+                                            <math-field id="mf-soal_bawah" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-soal_bawah','soal_bawah')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
 
+                                            <button onclick="clearEquation('mf-soal_bawah')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
 
-                                        <label>Soal</label>
-                                        <math-field id="mf-soal" virtual-keyboard-mode="off"></math-field>
-                                        <button onclick="insertEquation('mf-soal','soal')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+                                            <button id="btn-hide-soal-bawah-latex-container" onclick="hideEquation('soal-bawah-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
 
-                                        <textarea class="form-control" id="soal" name="soal" required></textarea>
+                                        <div>
+                                            <button id="btn-show-soal-bawah-latex-container" onclick="showEquation('soal-bawah-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
+
+                                        <textarea class="form-control" id="soal_bawah" name="soal_bawah" required></textarea>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -44,6 +71,19 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Jawaban A</label>
+                                        <span id="jawaban-a-latex-container" style="display: none;">
+                                            <math-field id="mf-jawaban_a" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-jawaban_a','jawaban_a')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-jawaban_a')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-jawaban-a-latex-container" onclick="hideEquation('jawaban-a-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-jawaban-a-latex-container" onclick="showEquation('jawaban-a-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
                                         <textarea class="form-control" id="jawaban_a" name="jawaban_a" required></textarea>
                                     </div>
                                 </div>
@@ -57,6 +97,19 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Jawaban B</label>
+                                        <span id="jawaban-b-latex-container" style="display: none;">
+                                            <math-field id="mf-jawaban_b" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-jawaban_b','jawaban_b')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-jawaban_b')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-jawaban-b-latex-container" onclick="hideEquation('jawaban-b-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-jawaban-b-latex-container" onclick="showEquation('jawaban-b-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
                                         <textarea class="form-control" id="jawaban_b" name="jawaban_b" required></textarea>
                                     </div>
                                 </div>
@@ -70,6 +123,19 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Jawaban C</label>
+                                       <span id="jawaban-c-latex-container" style="display: none;">
+                                            <math-field id="mf-jawaban_c" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-jawaban_c','jawaban_c')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-jawaban_c')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-jawaban-c-latex-container" onclick="hideEquation('jawaban-c-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-jawaban-c-latex-container" onclick="showEquation('jawaban-c-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
                                         <textarea class="form-control" id="jawaban_c" name="jawaban_c" required></textarea>
                                     </div>
 
@@ -84,6 +150,19 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Jawaban D</label>
+                                        <span id="jawaban-d-latex-container" style="display: none;">
+                                            <math-field id="mf-jawaban_d" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-jawaban_d','jawaban_d')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-jawaban_d')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-jawaban-d-latex-container" onclick="hideEquation('jawaban-d-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-jawaban-d-latex-container" onclick="showEquation('jawaban-d-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
                                         <textarea class="form-control" id="jawaban_d" name="jawaban_d" required></textarea>
                                     </div>
                                 </div>
@@ -98,6 +177,19 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Jawaban E</label>
+                                        <span id="jawaban-e-latex-container" style="display: none;">
+                                            <math-field id="mf-jawaban_e" virtual-keyboard-mode="off"></math-field>
+                                            <button onclick="insertEquation('mf-jawaban_e','jawaban_e')" type="button" style="margin-bottom: 5px;" class="btn btn-success btn-sm">Insert Equation</button>
+
+                                            <button onclick="clearEquation('mf-jawaban_e')" type="button" style="margin-bottom: 5px;" class="btn btn-warning btn-sm">Clear</button>
+
+                                            <button id="btn-hide-jawaban-e-latex-container" onclick="hideEquation('jawaban-e-latex-container')" type="button" style="margin-bottom: 5px;float:right;" class="btn btn-danger btn-sm">Hide Equation</button>
+                                        </span>
+
+                                        <div>
+                                            <button id="btn-show-jawaban-e-latex-container" onclick="showEquation('jawaban-e-latex-container')" type="button" style="margin-bottom: 5px;" class="btn btn-info btn-sm">Show Equation</button>
+
+                                        </div>
                                         <textarea class="form-control" id="jawaban_e" name="jawaban_e" required></textarea>
                                     </div>
                                 </div>

@@ -277,6 +277,21 @@
     <script src="{{ asset('theme') }}/plugins/ckeditor/ckeditor.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/mathlive"></script>
 
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [
+                    ['\\(', '\\)']
+                ],
+                displayMath: [
+                    ['\\[', '\\]']
+                ]
+            }
+        };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
     @if ($view == 'laporan-tryout')
     <script>
@@ -1028,6 +1043,11 @@
         }
 
         var table = $('#bank_soal_detail_table').DataTable({
+            drawCallback: function() {
+                if (window.MathJax) {
+                    MathJax.typesetPromise();
+                }
+            },
             dom: 'Blfrtip',
             buttons: [
                 'copy', 'csv', 'excel', 'pdf', 'print'
@@ -1142,6 +1162,7 @@
                         $('#modal-add').modal('hide');
                         table.ajax.reload(null, false);
                         $("#loadingProgress").hide();
+                        
 
                     }
                 }
@@ -3069,24 +3090,40 @@
     @if ($view == 'detail')
 
     <script>
-        $('#eqModal').on('hidden.bs.modal', function() {
-
-            if ($('#modal-add').hasClass('show')) {
-                $('body').addClass('modal-open');
-            }
-
-        });
         CKEDITOR.config.versionCheck = false;
 
         CKEDITOR.replace('soal');
+        CKEDITOR.replace('soal_bawah');
+        CKEDITOR.replace('jawaban_a');
+        CKEDITOR.replace('jawaban_b');
+        CKEDITOR.replace('jawaban_c');
+        CKEDITOR.replace('jawaban_d');
+        CKEDITOR.replace('jawaban_e');
+
+        function showEquation(element) {
+            $("#" + element).show();
+            $("#btn-show-" + element).hide();
+        }
+
+        function hideEquation(element) {
+            $("#" + element).hide();
+            $("#btn-show-" + element).show();
+        }
+
 
         function insertEquation(mathFieldId, editorId) {
-            let mf = document.getElementById('mf-soal');
+            let mf = document.getElementById(mathFieldId);
             let latex = document.getElementById(mathFieldId).value;
 
             CKEDITOR.instances[editorId].insertHtml(
                 '<span class="math-tex">\\(' + latex + '\\)</span>'
             );
+            mf.value = "";
+        }
+
+
+        function clearEquation(mathFieldId) {
+            let mf = document.getElementById(mathFieldId);
             mf.value = "";
         }
 
@@ -3170,12 +3207,21 @@
                     $('#id').val(data.id);
                     $("#id_tryout").val(data.id_tryout);
                     $("#no_soal").val(data.no_soal);
-                    $("#soal").val(data.soal);
-                    $("#jawaban_a").val(data.jawaban_a);
-                    $("#jawaban_b").val(data.jawaban_b);
-                    $("#jawaban_c").val(data.jawaban_c);
-                    $("#jawaban_d").val(data.jawaban_d);
-                    $("#jawaban_e").val(data.jawaban_e);
+                    // $("#soal").val(data.soal);
+                    // $("#jawaban_a").val(data.jawaban_a);
+                    // $("#jawaban_b").val(data.jawaban_b);
+                    // $("#jawaban_c").val(data.jawaban_c);
+                    // $("#jawaban_d").val(data.jawaban_d);
+                    // $("#jawaban_e").val(data.jawaban_e);
+
+                    CKEDITOR.instances.soal.setData(data.soal);
+                    CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
+                    CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
+                    CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
+                    CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
+                    CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
+                    CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
+
                     $("#score").val(data.score);
                     $("#is_active").val(data.is_active);
                     $("#kunci_jawaban").val(data.kunci_jawaban);
@@ -3194,6 +3240,22 @@
             else url = "{{ url('detail_update') . '/' }}" + id;
 
             var form_data = new FormData($('#modal-add form')[0]);
+            var soal = CKEDITOR.instances.soal.getData();
+            var soalBawah = CKEDITOR.instances.soal_bawah.getData();
+            var jawabanA = CKEDITOR.instances.jawaban_a.getData();
+            var jawabanB = CKEDITOR.instances.jawaban_b.getData();
+            var jawabanC = CKEDITOR.instances.jawaban_c.getData();
+            var jawabanD = CKEDITOR.instances.jawaban_d.getData();
+            var jawabanE = CKEDITOR.instances.jawaban_e.getData();
+            form_data.append('soal', soal);
+            form_data.append('soal_bawah', soalBawah);
+            form_data.append('jawaban_a', jawabanA);
+            form_data.append('jawaban_b', jawabanB);
+            form_data.append('jawaban_c', jawabanC);
+            form_data.append('jawaban_d', jawabanD);
+            form_data.append('jawaban_e', jawabanE);
+
+
             $.ajax({
                 url: url,
                 type: "POST",
