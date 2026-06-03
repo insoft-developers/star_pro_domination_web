@@ -236,6 +236,7 @@ class BankSoalController extends Controller
            $row['no_soal'] = $key->no_soal;
            $row['soal'] = $key->soal;
            $row['gambar_soal'] = $key->gambar_soal;
+           $row['soal_bawah'] = $key->soal_bawah;
            $row['jawaban_a'] = $key->jawaban_a;
            $row['gambar_a'] = $key->gambar_a;
            $row['jawaban_b'] = $key->jawaban_b;
