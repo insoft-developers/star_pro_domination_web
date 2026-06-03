@@ -169,7 +169,7 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0.0
             </div>
-            <strong>Copyright &copy; {{ date('Y') }} <a href="">Star Pro Domination (SPD)</a>.</strong> All
+            <strong>Copyright &copy; {{ date('Y') }} <a href="">Star Pro Domination (SPD BRO)</a>.</strong> All
             rights
             reserved.
         </footer>

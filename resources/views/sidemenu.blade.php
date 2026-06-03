@@ -60,6 +60,7 @@ $sett="";
 @endphp
 
 <?php
+    $view = null;
     if($view == 'dashboard') {
         $dashboard = "active"; 
     }
