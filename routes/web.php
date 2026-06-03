@@ -71,6 +71,7 @@ Route::get('tryout_session', 'WebTryoutSessionController@index');
 Route::get('session_table', 'WebTryoutSessionController@sessionTable')->name('sessionTable');
 Route::get('session_detail/{id}', 'WebTryoutSessionController@sessionDetail');
 Route::get('exam_table/{id}', 'WebTryoutSessionController@examTable')->name('examTable');
+Route::post('tryout_session_delete', 'WebTryoutSessionController@tryoutSessionDelete');
 Route::get('detail_exam/{id}', 'WebTryoutSessionController@detailExam');
 Route::get('get_jenis_copy/{jenis}', 'WebTryoutController@getJenisCopy');
 Route::post('copy_tryout', 'WebTryoutController@copyTryout');

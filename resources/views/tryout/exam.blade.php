@@ -61,5 +61,6 @@
     </section>
     <!-- /.content -->
     @include('modal.modal_show_detail')
+    @include('modal.modal_hapus')
   </div>
   @endsection

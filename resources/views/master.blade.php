@@ -169,7 +169,7 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0.0
             </div>
-            <strong>Copyright &copy; {{ date('Y') }} <a href="">Star Pro Domination (SPD BRO)</a>.</strong> All
+            <strong>Copyright &copy; {{ date('Y') }} <a href="">Star Pro Domination (SPD)</a>.</strong> All
             rights
             reserved.
         </footer>
@@ -2796,6 +2796,28 @@
                     $("#modal-show-detail").modal("show");
 
                     $("#content-text").html(data);
+                }
+            });
+        }
+
+        function deleteDataSession(id) {
+            $("#id_hapus").val(id);
+            $("#modal-hapus").modal("show");
+        }
+
+        function deleteDataConfirm() {
+            var id = $("#id_hapus").val();
+            var csrf_token = $('meta[name="csrf-token"]').attr('content');
+            $.ajax({
+                url: "{{ url('tryout_session_delete') }}",
+                type: "POST",
+                data: {
+                    'id': id,
+                    '_token': csrf_token
+                },
+                success: function($data) {
+                    table.ajax.reload(null, false);
+                    $("#modal-hapus").modal("hide");
                 }
             });
         }
