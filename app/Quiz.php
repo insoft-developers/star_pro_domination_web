@@ -12,6 +12,7 @@ class Quiz extends Model
         "no_kuis",
         "id_quiz",
         "soal_kuis",
+        "soal_bawah",
         "gambar_soal",
         "jawaban_a",
         "gambar_a",

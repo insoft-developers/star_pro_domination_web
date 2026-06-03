@@ -1026,7 +1026,6 @@
 
     @if ($view == 'detail-bank-soal')
     <script>
-        
         CKEDITOR.replace('soal');
         CKEDITOR.replace('soal_bawah');
         CKEDITOR.replace('jawaban_a');
@@ -1063,7 +1062,7 @@
             mf.value = "";
         }
 
-        
+
         function generateNomor() {
             var idbanksoal = $("#id_bank_soal").val();
             var csrf_token = $('meta[name="csrf-token"]').attr('content');
@@ -1202,7 +1201,7 @@
             var jawabanD = CKEDITOR.instances.jawaban_d.getData();
             var jawabanE = CKEDITOR.instances.jawaban_e.getData();
 
-            form_data.append('soal',soal);
+            form_data.append('soal', soal);
             form_data.append('soal_bawah', soalBawah);
             form_data.append('jawaban_a', jawabanA);
             form_data.append('jawaban_b', jawabanB);
@@ -1222,7 +1221,7 @@
                         $('#modal-add').modal('hide');
                         table.ajax.reload(null, false);
                         $("#loadingProgress").hide();
-                        
+
 
                     }
                 }
@@ -1309,18 +1308,19 @@
         function resetForm() {
             $("#id").val("");
             $("#no_soal").val("");
+            CKEDITOR.instances.soal.setData(data.soal);
+            CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
+            CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
+            CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
+            CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
+            CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
+            CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
             $("#gambar_soal").val(null);
-            $("#soal").val("")
             $("#gambar_a").val(null);
-            $("#jawaban_a").val("");
             $("#gambar_b").val(null);
-            $("#jawaban_b").val("");
             $("#gambar_c").val(null);
-            $("#jawaban_c").val("");
             $("#gambar_d").val(null);
-            $("#jawaban_d").val("");
             $("#gambar_e").val(null);
-            $("#jawaban_e").val("");
             $("#kunci_jawaban").val("");
             $("#score").val("");
             $("#is_active").val("");
@@ -2184,6 +2184,44 @@
 
     @if ($view == 'quiz')
     <script>
+        CKEDITOR.replace('soal_kuis');
+        CKEDITOR.replace('soal_bawah');
+        CKEDITOR.replace('jawaban_a');
+        CKEDITOR.replace('jawaban_b');
+        CKEDITOR.replace('jawaban_c');
+        CKEDITOR.replace('jawaban_d');
+        CKEDITOR.replace('jawaban_e');
+
+
+
+        function showEquation(element) {
+            $("#" + element).show();
+            $("#btn-show-" + element).hide();
+        }
+
+        function hideEquation(element) {
+            $("#" + element).hide();
+            $("#btn-show-" + element).show();
+        }
+
+
+        function insertEquation(mathFieldId, editorId) {
+            let mf = document.getElementById(mathFieldId);
+            let latex = document.getElementById(mathFieldId).value;
+
+            CKEDITOR.instances[editorId].insertHtml(
+                '<span class="math-tex">\\(' + latex + '\\)</span>'
+            );
+            mf.value = "";
+        }
+
+
+        function clearEquation(mathFieldId) {
+            let mf = document.getElementById(mathFieldId);
+            mf.value = "";
+        }
+
+
         var table = $('#quiz_table').DataTable({
             dom: 'Blfrtip',
             buttons: [
@@ -2286,12 +2324,21 @@
                     $('#id').val(data.id);
                     $("#no_kuis").val(data.no_kuis);
                     $("#id_kelas").val(data.id_kelas);
-                    $("#soal_kuis").val(data.soal_kuis);
-                    $("#jawaban_a").val(data.jawaban_a);
-                    $("#jawaban_b").val(data.jawaban_b);
-                    $("#jawaban_c").val(data.jawaban_c);
-                    $("#jawaban_d").val(data.jawaban_d);
-                    $("#jawaban_e").val(data.jawaban_e);
+                    // $("#soal_kuis").val(data.soal_kuis);
+                    // $("#jawaban_a").val(data.jawaban_a);
+                    // $("#jawaban_b").val(data.jawaban_b);
+                    // $("#jawaban_c").val(data.jawaban_c);
+                    // $("#jawaban_d").val(data.jawaban_d);
+                    // $("#jawaban_e").val(data.jawaban_e);
+
+                    CKEDITOR.instances.soal_kuis.setData(data.soal_kuis);
+                    CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
+                    CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
+                    CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
+                    CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
+                    CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
+                    CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
+
                     $("#kunci_jawaban").val(data.kunci_jawaban);
                     $("#score").val(data.score);
 
@@ -2308,10 +2355,31 @@
             var id = $('#id').val();
             if (save_method == "add") url = "{{ url('quiz') }}";
             else url = "{{ url('quiz') . '/' }}" + id;
+
+            var form_data = new FormData($('#modal-add form')[0]);
+
+            var soalKuis = CKEDITOR.instances.soal_kuis.getData();
+            var soalBawah = CKEDITOR.instances.soal_bawah.getData();
+            var jawabanA = CKEDITOR.instances.jawaban_a.getData();
+            var jawabanB = CKEDITOR.instances.jawaban_b.getData();
+            var jawabanC = CKEDITOR.instances.jawaban_c.getData();
+            var jawabanD = CKEDITOR.instances.jawaban_d.getData();
+            var jawabanE = CKEDITOR.instances.jawaban_e.getData();
+
+
+            form_data.append('soal_kuis', soalKuis);
+            form_data.append('soal_bawah', soalBawah);
+            form_data.append('jawaban_a', jawabanA);
+            form_data.append('jawaban_b', jawabanB);
+            form_data.append('jawaban_c', jawabanC);
+            form_data.append('jawaban_d', jawabanD);
+            form_data.append('jawaban_e', jawabanE);
+
+
             $.ajax({
                 url: url,
                 type: "POST",
-                data: new FormData($('#modal-add form')[0]),
+                data: form_data,
                 contentType: false,
                 processData: false,
                 success: function(data) {
@@ -2383,12 +2451,13 @@
 
         function resetForm() {
             $("#no_kuis").val("");
-            $("#soal_kuis").val("");
-            $("#jawaban_a").val("");
-            $("#jawaban_b").val("");
-            $("#jawaban_c").val("");
-            $("#jawaban_d").val("");
-            $("#jawaban_e").val("");
+            CKEDITOR.instances.soal_kuis.setData('');
+            CKEDITOR.instances.soal_bawah.setData('');
+            CKEDITOR.instances.jawaban_a.setData('');
+            CKEDITOR.instances.jawaban_b.setData('');
+            CKEDITOR.instances.jawaban_c.setData('');
+            CKEDITOR.instances.jawaban_d.setData('');
+            CKEDITOR.instances.jawaban_e.setData('');
             $("#kunci_jawaban").val("");
             $("#score").val("");
             $("#gambar_soal").val(null);
@@ -3172,8 +3241,6 @@
     @if ($view == 'detail')
 
     <script>
-        
-
         CKEDITOR.replace('soal');
         CKEDITOR.replace('soal_bawah');
         CKEDITOR.replace('jawaban_a');
@@ -3433,17 +3500,19 @@
             $("#id").val("");
             $("#no_soal").val("");
             $("#gambar_soal").val(null);
-            $("#soal").val("")
+            CKEDITOR.instances.soal.setData(data.soal);
+            CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
+            CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
+            CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
+            CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
+            CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
+            CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
+
             $("#gambar_a").val(null);
-            $("#jawaban_a").val("");
             $("#gambar_b").val(null);
-            $("#jawaban_b").val("");
             $("#gambar_c").val(null);
-            $("#jawaban_c").val("");
             $("#gambar_d").val(null);
-            $("#jawaban_d").val("");
             $("#gambar_e").val(null);
-            $("#jawaban_e").val("");
             $("#kunci_jawaban").val("");
             $("#score").val("");
             $("#is_active").val("");

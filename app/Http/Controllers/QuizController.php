@@ -9,7 +9,7 @@ use App\QuizAnswer;
 use App\Setting;
 use App\QuizHeader;
 use App\User;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class QuizController extends Controller
 {
