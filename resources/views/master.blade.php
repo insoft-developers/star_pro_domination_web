@@ -1308,13 +1308,13 @@
         function resetForm() {
             $("#id").val("");
             $("#no_soal").val("");
-            CKEDITOR.instances.soal.setData(data.soal);
-            CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
-            CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
-            CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
-            CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
-            CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
-            CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
+            CKEDITOR.instances.soal.setData("");
+            CKEDITOR.instances.soal_bawah.setData("");
+            CKEDITOR.instances.jawaban_a.setData("");
+            CKEDITOR.instances.jawaban_b.setData("");
+            CKEDITOR.instances.jawaban_c.setData("");
+            CKEDITOR.instances.jawaban_d.setData("");
+            CKEDITOR.instances.jawaban_e.setData("");
             $("#gambar_soal").val(null);
             $("#gambar_a").val(null);
             $("#gambar_b").val(null);
@@ -3500,13 +3500,13 @@
             $("#id").val("");
             $("#no_soal").val("");
             $("#gambar_soal").val(null);
-            CKEDITOR.instances.soal.setData(data.soal);
-            CKEDITOR.instances.soal_bawah.setData(data.soal_bawah);
-            CKEDITOR.instances.jawaban_a.setData(data.jawaban_a);
-            CKEDITOR.instances.jawaban_b.setData(data.jawaban_b);
-            CKEDITOR.instances.jawaban_c.setData(data.jawaban_c);
-            CKEDITOR.instances.jawaban_d.setData(data.jawaban_d);
-            CKEDITOR.instances.jawaban_e.setData(data.jawaban_e);
+            CKEDITOR.instances.soal.setData('');
+            CKEDITOR.instances.soal_bawah.setData('');
+            CKEDITOR.instances.jawaban_a.setData('');
+            CKEDITOR.instances.jawaban_b.setData('');
+            CKEDITOR.instances.jawaban_c.setData('');
+            CKEDITOR.instances.jawaban_d.setData('');
+            CKEDITOR.instances.jawaban_e.setData('');
 
             $("#gambar_a").val(null);
             $("#gambar_b").val(null);
