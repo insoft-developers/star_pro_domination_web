@@ -184,8 +184,13 @@ class WebMapelController extends Controller
                for($i=0; $i < count($kelasArray); $i++) 
                {
                    $id = (int)$kelasArray[$i]; 
-                   $kelas = Kelas::findorFail($id);
-                   $html .= '<li>'.$kelas->nama_kelas.'</li>';
+                   $kelas = Kelas::find($id);
+                   if($kelas) {
+                        $html .= '<li>'.$kelas->nama_kelas.'</li>';
+                   } else {
+                    $html .= '<li>-</li>';
+                   }
+                   
                }
                $html .= "</ul>";
                
