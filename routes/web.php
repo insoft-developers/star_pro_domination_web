@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TkaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -172,9 +173,8 @@ Route::get('privacy_policy', function(){
    return view('privacy'); 
 });
 
-Route::get('tanggal', function(){
-        $sekarang = date('Y-m-d');
-        $date = strtotime($sekarang.' -1 day');
-        $tanggal = date('Y-m-d 00:00:01', $date);
-        echo $tanggal;
-});
+Route::resource('/tka', 'TkaController');
+Route::get('/tka_table', 'TkaController@table')->name('tka.table');
+
+Route::resource('/tka_detail', 'TkaDetailController');
+Route::get('/tka_detail_table', 'TkaDetailController@table')->name('tka.detail.table');

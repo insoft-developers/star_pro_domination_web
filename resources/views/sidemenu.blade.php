@@ -38,6 +38,11 @@ $tkp="";
 $tekape="";
 $tkp_session="";
 
+
+$tka="";
+$tekaa="";
+$tka_session="";
+
 $banksoal="";
 $bank="";
 $banksoal_session="";
@@ -337,6 +342,21 @@ $sett="";
           <ul class="treeview-menu">
             <li class="{{$kuis}}"><a href="{{ url('quizheader') }}"><i class="fa fa-circle-o"></i> Quiz</a></li>
             <li class="{{$kuis_session}}"><a href="{{ url('exquiz') }}"><i class="fa fa-circle-o"></i> Session</a></li>
+            
+          </ul>
+        </li>
+
+        <li class="treeview {{ $tka }}">
+          <a href="#">
+            <i class="fa fa-file"></i>
+            <span>TKA</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="{{$tekaa}}"><a href="{{ url('tka') }}"><i class="fa fa-circle-o"></i> TKA</a></li>
+            <li class="{{$tka_session}}"><a href="{{ url('tka_session') }}"><i class="fa fa-circle-o"></i> Session</a></li>
             
           </ul>
         </li>
