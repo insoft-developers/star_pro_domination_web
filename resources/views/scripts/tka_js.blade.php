@@ -205,7 +205,7 @@
          var id = $("#id_hapus").val();
          var csrf_token = $('meta[name="csrf-token"]').attr('content');
          $.ajax({
-             url: "{{ url('banksoal') }}" + '/' + id,
+             url: "{{ url('tka') }}" + '/' + id,
              type: "POST",
              data: {
                  '_method': 'DELETE',

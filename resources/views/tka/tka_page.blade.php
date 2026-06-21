@@ -43,7 +43,7 @@
                                              <th width="10%">Jumlah Soal</th>
                                              <th width="10%">Warna Soal</th>
                                              <th width="10%">Warna Jawaban</th>
-                                             
+
                                          </tr>
                                      </thead>
                                      <tbody></tbody>
@@ -61,7 +61,7 @@
          </section>
          <!-- /.content -->
          @include('modal.modal_add_tka')
-         {{-- @include('modal.modal_copy_tkp')
-    @include('modal.modal_hapus') --}}
+         {{-- @include('modal.modal_copy_tkp') --}}
+         @include('modal.modal_hapus')
      </div>
  @endsection

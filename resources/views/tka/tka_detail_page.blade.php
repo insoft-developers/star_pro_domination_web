@@ -10,7 +10,7 @@
              <ol class="breadcrumb">
                  <li><a href="{{ route('default') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                  <li><a href="#">TKA</a></li>
-                 <li>TKA (Test Kompetisi Akademik)</li>
+                 <li><a href="{{ url('/tka') }}">TKA (Test Kompetisi Akademik)</a></li>
                  <li class="active">TKA Details</li>
              </ol>
          </section>
@@ -29,22 +29,27 @@
                          <!-- /.box-header -->
                          <div class="box-body" style="margin-top:10px">
                              <div class="table-responsive">
-                                 <table style="font-size:13px;" id="tka_table" class="table table-bordered table-striped">
+                                 <table style="font-size:13px;" id="list-table"
+                                     class="table table-bordered table-striped nowrap">
                                      <thead>
                                          <tr>
-                                             <th width="5%">ID</th>
-                                             <th width="7%">Action</th>
-                                             <th width="*">Judul</th>
-                                             <th width="10%">Kelas</th>
-                                             <th width="10%">Active</th>
-                                             <th width="10%">Repeated</th>
-                                             <th width="10%">Skipped</th>
-                                             <th width="10%">Time</th>
-                                             <th width="10%">Target</th>
-                                             <th width="10%">Jumlah Soal</th>
-                                             <th width="10%">Warna Soal</th>
-                                             <th width="10%">Warna Jawaban</th>
-                                             
+                                             <th>ID</th>
+                                             <th>Action</th>
+                                             <th>No Soal</th>
+                                             <th>Soal</th>
+                                             <th>Gambar Soal</th>
+                                             <th>Soal Bawah</th>
+                                             <th>Jawaban A</th>
+                                             <th>Jawaban B</th>
+                                             <th>Jawaban C</th>
+                                             <th>Jawaban D</th>
+                                             <th>Jawaban E</th>
+                                             <th>Tipe Soal</th>
+                                             <th>Kunci Jawaban</th>
+                                             <th>Score</th>
+                                             <th>Active</th>
+
+
                                          </tr>
                                      </thead>
                                      <tbody></tbody>
@@ -62,7 +67,7 @@
          </section>
          <!-- /.content -->
          @include('modal.modal_add_tka_detail')
-         {{-- @include('modal.modal_copy_tkp')
-    @include('modal.modal_hapus') --}}
+         {{-- @include('modal.modal_copy_tkp') --}}
+         @include('modal.modal_hapus')
      </div>
  @endsection

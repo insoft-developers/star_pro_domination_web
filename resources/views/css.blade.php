@@ -32,4 +32,12 @@
     .bg-success {
         background-color: green !important;
     }
+
+    .box-title {
+        background: bisque;
+        padding: 10px;
+        border-radius: 2px;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
 </style>

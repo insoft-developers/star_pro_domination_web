@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Kelas;
 use App\Tka;
+use App\TkaDetail;
 use App\TkaKelasId;
 use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
@@ -53,7 +54,7 @@ class TkaController extends Controller
             })
 
             ->addColumn('jumlah_soal', function ($row) {
-                return '';
+                return $row->details->count() ?? 0;
             })
 
             ->addColumn('warna', function($row){
@@ -231,6 +232,6 @@ class TkaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return Tka::destroy($id);
     }
 }

@@ -378,7 +378,7 @@
 
 
     @if ($view == 'bimbingan')
-        @inlude('scripts.bimbingan_js')
+        @include('scripts.bimbingan_js')
     @endif
 
     @if ($view == 'kategori')
@@ -429,6 +429,10 @@
 
     @if($view == 'tka')
         @include('scripts.tka_js')
+    @endif
+
+    @if($view == 'tka-detail' || $view == 'create-tka-page')
+        @include('scripts.tka_detail_js')
     @endif
 
     <style>

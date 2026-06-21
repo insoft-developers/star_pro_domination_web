@@ -537,97 +537,97 @@ class TkpController extends Controller
     
     
     public function laporan() {
-        if(! Session::has('id')) {
-            return Redirect(route('login'));
-        }
-        $kelas = \App\Kelas::all();
-        $view = 'laporan-tryout';
-        return view('tryout.laporan', compact('view', 'kelas'));
+        // if(! Session::has('id')) {
+        //     return Redirect(route('login'));
+        // }
+        // $kelas = \App\Kelas::all();
+        // $view = 'laporan-tryout';
+        // return view('tryout.laporan', compact('view', 'kelas'));
     }
     
     
     public function export() {
-        $utama = \App\User::all();
-        $tryout = TryOut::where('is_active', 1)->get();
-        return \Excel::download(new TryoutReportExport($utama, $tryout), 'laporan_tryout.xlsx');
+        // $utama = \App\User::all();
+        // $tryout = TryOut::where('is_active', 1)->get();
+        // return \Excel::download(new TryoutReportExport($utama, $tryout), 'laporan_tryout.xlsx');
     }
     
     
     public function displayReport(Request $request) 
     {
-        $input = $request->all();
-        $id = $input['id'];
+        // $input = $request->all();
+        // $id = $input['id'];
         
-        if(! empty($id))  {
-            $utama = \App\User::where('id_kelas', $id)->get();
-            $tryout = TryOut::where('is_active', 1)->where('id_kelas', $id)->get();
-        } else {
-            $utama = \App\User::all();
-            $tryout = TryOut::where('is_active', 1)->get();
-        }
-        
-        
+        // if(! empty($id))  {
+        //     $utama = \App\User::where('id_kelas', $id)->get();
+        //     $tryout = TryOut::where('is_active', 1)->where('id_kelas', $id)->get();
+        // } else {
+        //     $utama = \App\User::all();
+        //     $tryout = TryOut::where('is_active', 1)->get();
+        // }
         
         
-        $html = "";
+        
+        
+        // $html = "";
 
-        $html .= '<table style="font-size:13px;width:400%;" id="tryout_laporan_table" class="table table-bordered table-striped">';
-        $html .= '<thead>';
-        $html .= '<tr>';
-        $html .= '<th style="vertical-align:middle" rowspan="2" width="5%">ID</th>';
-        $html .= '<th style="vertical-align:middle" rowspan="2" width="50">Username</th>';
-        $html .= '<th style="vertical-align:middle" rowspan="2"><span style="white-space:nowrap;">Nama_Peserta</span></th>';
-        foreach($tryout as $t) {
-            $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get(); 
-            foreach($detail as $d) {
-            $html .= '<th width="1%">'.$d->no_soal.'</th>';
+        // $html .= '<table style="font-size:13px;width:400%;" id="tryout_laporan_table" class="table table-bordered table-striped">';
+        // $html .= '<thead>';
+        // $html .= '<tr>';
+        // $html .= '<th style="vertical-align:middle" rowspan="2" width="5%">ID</th>';
+        // $html .= '<th style="vertical-align:middle" rowspan="2" width="50">Username</th>';
+        // $html .= '<th style="vertical-align:middle" rowspan="2"><span style="white-space:nowrap;">Nama_Peserta</span></th>';
+        // foreach($tryout as $t) {
+        //     $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get(); 
+        //     foreach($detail as $d) {
+        //     $html .= '<th width="1%">'.$d->no_soal.'</th>';
             
-            }
-        }
+        //     }
+        // }
         
-        $html .= '</tr>';
-        $html .= '<tr>';
+        // $html .= '</tr>';
+        // $html .= '<tr>';
         
-        foreach($tryout as $t){
+        // foreach($tryout as $t){
         
-        $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get();
-        foreach($detail as $d)  { 
-        $html .= '<th width="1%">'.$t->short_name.'</th>';
-        }
-        }
-        $html .= '</tr>';
+        // $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get();
+        // foreach($detail as $d)  { 
+        // $html .= '<th width="1%">'.$t->short_name.'</th>';
+        // }
+        // }
+        // $html .= '</tr>';
         
-        $html .= '</thead>';
-        $html .= '<tbody>';
-        foreach($utama as $key){
-        $html .= '<tr>';
-        $html .= '<td>'.$key->id.'</td>';
-        $html .= '<td>'.$key->email.'</td>';
-        $html .= '<td>'.$key->name.'</td>';
-        foreach($tryout as $t){
+        // $html .= '</thead>';
+        // $html .= '<tbody>';
+        // foreach($utama as $key){
+        // $html .= '<tr>';
+        // $html .= '<td>'.$key->id.'</td>';
+        // $html .= '<td>'.$key->email.'</td>';
+        // $html .= '<td>'.$key->name.'</td>';
+        // foreach($tryout as $t){
         
-        $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get();
-        foreach($detail as $d)  { 
-        $ans = \App\TryoutAnswer::where('id_soal', $d->id)->where('id_user', $key->id)->get();
-        if($ans->count() > 0) { 
-        if($ans[0]->hasil_jawaban == 'benar') {
-        $html .= '<td style="background-color:green;color:white;" width="1%"><center>1</center></td>';
-        } else {
-        $html .= '<td width="1%"><center>0</center></td>';
-        } 
+        // $detail = \App\TryoutDetail::where('id_tryout', $t->id)->get();
+        // foreach($detail as $d)  { 
+        // $ans = \App\TryoutAnswer::where('id_soal', $d->id)->where('id_user', $key->id)->get();
+        // if($ans->count() > 0) { 
+        // if($ans[0]->hasil_jawaban == 'benar') {
+        // $html .= '<td style="background-color:green;color:white;" width="1%"><center>1</center></td>';
+        // } else {
+        // $html .= '<td width="1%"><center>0</center></td>';
+        // } 
         
-        } else  { 
-        $html .='<td width="1%"><center>0</center></td>';
-        }    
-        }
-        }
-        $html .= '</tr>';
-        }
-        $html .= '</tbody>';
+        // } else  { 
+        // $html .='<td width="1%"><center>0</center></td>';
+        // }    
+        // }
+        // }
+        // $html .= '</tr>';
+        // }
+        // $html .= '</tbody>';
         
-        $html .= '</table>';
+        // $html .= '</table>';
         
-        return $html;
+        // return $html;
     }
     
     

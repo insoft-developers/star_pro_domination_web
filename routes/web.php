@@ -178,3 +178,5 @@ Route::get('/tka_table', 'TkaController@table')->name('tka.table');
 
 Route::resource('/tka_detail', 'TkaDetailController');
 Route::get('/tka_detail_table', 'TkaDetailController@table')->name('tka.detail.table');
+Route::post('/delete_tka_image', 'TkaDetailController@deleteImage')->name('delete.tka.image');
+Route::get('/generate_nomor_soal_tka', 'TkaDetailController@generateNomorSoal');

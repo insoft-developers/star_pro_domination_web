@@ -1,6 +1,5 @@
 <script>
            
-
             $("#id_kelas").select2();
 
             $("#id_kategori").change(function() {
