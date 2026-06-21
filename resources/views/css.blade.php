@@ -1,4 +1,28 @@
 <style>
+    .item-item {
+        position: relative;
+        top: -22px;
+        left: 25px;
+    }
+
+    .jawaban-item {
+        background: powderblue;
+        padding: 10px 21px;
+        margin-bottom: 12px;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    .jawaban-tka {
+        padding: 10px;
+    }
+
+    .soal-tka {
+        background: whitesmoke;
+        padding: 15px;
+        border-radius: 4p
+    }
+
     #loadingProgress {
         position: absolute;
         width: 80px;

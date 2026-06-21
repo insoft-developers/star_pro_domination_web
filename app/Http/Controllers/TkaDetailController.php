@@ -134,8 +134,20 @@ class TkaDetailController extends Controller
 
 
             ->addColumn('action', function ($detail) {
-                return '<center><a onclick="editData(' . $detail->id . ')" style="width:25px;margin-bottom:5px;" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></a>' .
-                    '<br><a onclick="deleteData(' . $detail->id . ')" style="width:25px;" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></a></center>';
+
+                $button = '';
+                $button .= '<center>';
+                $button .= '<a title="Lihat Soal" onclick="lihatData(' . $detail->id . ')" style="width:25px;margin-bottom:5px;" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-file"></i></a>';
+                $button .= '<br>';
+                $button .= '<a title="Edit" onclick="editData(' . $detail->id . ')" style="width:25px;margin-bottom:5px;" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i></a>';
+                $button .= '<br>';
+
+                $button .= '<a title="Hapus" onclick="deleteData(' . $detail->id . ')" style="width:25px;" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></a>';
+
+                $button .= '</center>';
+
+                return $button;
+                   
             })->rawColumns(['action', 'is_active', 'soal', 'gambar_soal', 'soal_bawah', 'jawaban_a', 'jawaban_b', 'jawaban_c', 'jawaban_d', 'jawaban_e', 'kunci_jawaban'])
             ->make(true);
     }
@@ -172,12 +184,20 @@ class TkaDetailController extends Controller
             'soal' => 'required'
         ];
 
-        if (in_array($request->question_model, ['1', '2'])) {
+        if ($request->question_model == '1') {
             $rules['jawaban_a'] = 'required';
             $rules['jawaban_b'] = 'required';
             $rules['jawaban_c'] = 'required';
             $rules['jawaban_d'] = 'required';
             $rules['jawaban_e'] = 'required';
+        }
+
+        if ($request->question_model == '2') {
+            $rules['jawaban_a'] = 'required';
+            $rules['jawaban_b'] = 'required';
+            $rules['jawaban_c'] = 'required';
+            $rules['jawaban_d'] = 'required';
+           
         }
 
         if ($request->question_model == '3') {
@@ -319,12 +339,20 @@ class TkaDetailController extends Controller
             'soal' => 'required'
         ];
 
-        if (in_array($request->question_model, ['1', '2'])) {
+        if ($request->question_model == '1') {
             $rules['jawaban_a'] = 'required';
             $rules['jawaban_b'] = 'required';
             $rules['jawaban_c'] = 'required';
             $rules['jawaban_d'] = 'required';
             $rules['jawaban_e'] = 'required';
+        }
+
+        if ($request->question_model == '2') {
+            $rules['jawaban_a'] = 'required';
+            $rules['jawaban_b'] = 'required';
+            $rules['jawaban_c'] = 'required';
+            $rules['jawaban_d'] = 'required';
+           
         }
 
         if ($request->question_model == '3') {
@@ -537,8 +565,20 @@ class TkaDetailController extends Controller
         $input = $request->all();
         $tka = TkaDetail::where('tka_id', $input['filter_id'])
             ->max('no_soal');
-        $nomorBaru = $tka + 1;
+        if($tka) {
+            $nomorBaru = $tka + 1;
+        } else {
+            $nomorBaru = 1;
+        }
+        
 
         return response()->json($nomorBaru);
+    }
+
+    public function lihatSoal(Request $request)
+    {
+        $id = $request->id;
+        $data = TkaDetail::find($id);
+        return response()->json($data);
     }
 }

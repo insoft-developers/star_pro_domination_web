@@ -67,7 +67,7 @@
          </section>
          <!-- /.content -->
          @include('modal.modal_add_tka_detail')
-         {{-- @include('modal.modal_copy_tkp') --}}
+         @include('modal.modal_lihat_soal_tka')
          @include('modal.modal_hapus')
      </div>
  @endsection

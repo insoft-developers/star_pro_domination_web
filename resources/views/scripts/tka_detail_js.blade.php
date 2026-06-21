@@ -2,6 +2,96 @@
     var filterId = window.location.pathname.split('/').pop();
 
 
+
+    function lihatData(id) {
+
+        $.ajax({
+            url: "{{ url('lihat_soal_tka?id=') }}" + id,
+            type: "GET",
+            dataType: "JSON",
+            success: function(data) {
+                var html = '';
+                html += `<h4>Soal No ${data.no_soal}</h4>`;
+                var gambar = '';
+                if (data.gambar_soal) {
+                    var linkGambar = '';
+                    linkGambar = "{{ asset('/images/question') }}" + '/' + data.gambar_soal;
+
+                    gambar += `<img style="width:600px;" class="img-responsive" src="${linkGambar}">`;
+                }
+
+                var soalBawah = '';
+                if (data.soal_bawah) {
+                    soalBawah += data.soal_bawah;
+                }
+                html += `<h4 class="soal-tka">${data.soal}<br>${gambar}<br>${soalBawah}</h4>`;
+
+                html += '<div class="jawaban-tka">';
+
+                let gambarA = '';
+                let gambarB = '';
+                let gambarC = '';
+                let gambarD = '';
+                let gambarE = '';
+
+                if (data.gambar_a) {
+                    linkGambarA = "{{ asset('/images/question') }}" + '/' + data.gambar_a;
+                    gambarA += `<img style="width:300px;" class="img-responsive" src="${linkGambarA}"><br>`;
+                }
+                if (data.gambar_b) {
+                    linkGambarB = "{{ asset('/images/question') }}" + '/' + data.gambar_b;
+                    gambarB += `<img style="width:300px;" class="img-responsive" src="${linkGambarB}"><br>`;
+                }
+                if (data.gambar_c) {
+                    linkGambarC = "{{ asset('/images/question') }}" + '/' + data.gambar_c;
+                    gambarC += `<img style="width:300px;" class="img-responsive" src="${linkGambarC}"><br>`;
+                }
+                if (data.gambar_d) {
+                    linkGambarD = "{{ asset('/images/question') }}" + '/' + data.gambar_d;
+                    gambarD += `<img style="width:300px;" class="img-responsive" src="${linkGambarD}"><br>`;
+                }
+                if (data.gambar_e) {
+                    linkGambarE = "{{ asset('/images/question') }}" + '/' + data.gambar_e;
+                    gambarE += `<img style="width:300px;" class="img-responsive" src="${linkGambarE}"><br>`;
+                }
+
+                if (data.question_model == 1) {
+                    html += `<div class="jawaban-item"><strong>A.</strong>${gambarA}${data.jawaban_a}</div>`;
+                    html += `<div class="jawaban-item"><strong>B.</strong>${gambarB}${data.jawaban_b}</div>`;
+                    html += `<div class="jawaban-item"><strong>C.</strong>${gambarC}${data.jawaban_c}</div>`;
+                    html += `<div class="jawaban-item"><strong>D.</strong>${gambarD}${data.jawaban_d}</div>`;
+                    html += `<div class="jawaban-item"><strong>E.</strong>${gambarE}${data.jawaban_e}</div>`;
+
+                }
+
+                else if (data.question_model == 2) {
+                    html += `<div class="jawaban-item"><strong></strong>${gambarA}<input type="checkbox"><span class="item-item">${data.jawaban_a}</span></div>`;
+                    html += `<div class="jawaban-item"><strong></strong>${gambarB}<input type="checkbox"><span class="item-item">${data.jawaban_b}</span></div>`;
+                    html += `<div class="jawaban-item"><strong></strong>${gambarC}<input type="checkbox"><span class="item-item">${data.jawaban_c}</span></div>`;
+                    html += `<div class="jawaban-item"><strong></strong>${gambarD}<input type="checkbox"><span class="item-item">${data.jawaban_d}</span></div>`;
+                    if(data.jawaban_e || data.gambar_e) {
+                         html += `<div class="jawaban-item"><strong></strong>${gambarE}<input type="checkbox"><span class="item-item">${data.jawaban_e}</span></div>`;
+
+                    }
+                   
+                }
+                html += '</div>';
+
+
+                $("#lihat-tka-container").html(html);
+                if (window.MathJax) {
+                    MathJax.typesetPromise([document.getElementById('lihat-tka-container')]);
+                }
+                $("#modal-lihat").modal('show');
+                $(".modal-title").text('Lihat Soal');
+
+
+            }
+        });
+
+    }
+
+
     function renderKunciJawaban(questionModel, kunciJawaban = null) {
 
         var html = '';
@@ -140,7 +230,7 @@
 
     function generateNomorSoal() {
         $.ajax({
-            url:"{{ url('generate_nomor_soal_tka?filter_id=') }}"+filterId,
+            url: "{{ url('generate_nomor_soal_tka?filter_id=') }}" + filterId,
             type: "GET",
             dataType: "JSON",
             success: function(data) {
@@ -151,7 +241,7 @@
 
 
 
-   
+
     var table = $('#list-table').DataTable({
         dom: 'Blfrtip',
         buttons: [
