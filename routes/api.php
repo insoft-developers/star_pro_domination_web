@@ -122,6 +122,11 @@ use Illuminate\Support\Facades\Route;
 
 
  Route::post('tka_list', 'TkaApiController@tkaList');
-
  Route::post('tka_detail_list', 'TkaApiController@tkaDetailList');
+ Route::post('tka_create_session', 'TkaApiController@createSession');
+ Route::post('tka_make_answer', 'TkaApiController@makeAnswer');
+ Route::post('tka_hasil', 'TkaApiController@hasil');
+ Route::post('tka_check_answer', 'TkaApiController@checkAnswer');
+ Route::post('tka_answer_list', 'TkaApiController@answerList');
+
 
