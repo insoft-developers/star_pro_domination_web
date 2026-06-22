@@ -120,3 +120,8 @@ use Illuminate\Support\Facades\Route;
  
  Route::post('ref_list', 'SliderController@refList');
 
+
+ Route::post('tka_list', 'TkaApiController@tkaList');
+
+ Route::post('tka_detail_list', 'TkaApiController@tkaDetailList');
+
