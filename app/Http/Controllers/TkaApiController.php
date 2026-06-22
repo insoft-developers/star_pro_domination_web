@@ -17,7 +17,7 @@ class TkaApiController extends Controller
 
         $user = User::find($input['userid']);
 
-        $data = Tka::with('tkaKelas')->where('is_active', 1)
+        $data = Tka::with(['tkaKelas', 'details'])->where('is_active', 1)
             ->whereHas('tkaKelas', function($query) use ($user){
                 $query->where('id_kelas', $user->id_kelas);
             })->get();
