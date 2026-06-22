@@ -56,24 +56,99 @@
                 }
 
                 if (data.question_model == 1) {
-                    html += `<div class="jawaban-item"><strong>A.</strong>${gambarA}${data.jawaban_a}</div>`;
-                    html += `<div class="jawaban-item"><strong>B.</strong>${gambarB}${data.jawaban_b}</div>`;
-                    html += `<div class="jawaban-item"><strong>C.</strong>${gambarC}${data.jawaban_c}</div>`;
-                    html += `<div class="jawaban-item"><strong>D.</strong>${gambarD}${data.jawaban_d}</div>`;
-                    html += `<div class="jawaban-item"><strong>E.</strong>${gambarE}${data.jawaban_e}</div>`;
+                    html +=
+                    `<div class="jawaban-item"><strong>A.</strong>${gambarA}${data.jawaban_a}</div>`;
+                    html +=
+                    `<div class="jawaban-item"><strong>B.</strong>${gambarB}${data.jawaban_b}</div>`;
+                    html +=
+                    `<div class="jawaban-item"><strong>C.</strong>${gambarC}${data.jawaban_c}</div>`;
+                    html +=
+                    `<div class="jawaban-item"><strong>D.</strong>${gambarD}${data.jawaban_d}</div>`;
+                    html +=
+                    `<div class="jawaban-item"><strong>E.</strong>${gambarE}${data.jawaban_e}</div>`;
 
-                }
-
-                else if (data.question_model == 2) {
-                    html += `<div class="jawaban-item"><strong></strong>${gambarA}<input type="checkbox"><span class="item-item">${data.jawaban_a}</span></div>`;
-                    html += `<div class="jawaban-item"><strong></strong>${gambarB}<input type="checkbox"><span class="item-item">${data.jawaban_b}</span></div>`;
-                    html += `<div class="jawaban-item"><strong></strong>${gambarC}<input type="checkbox"><span class="item-item">${data.jawaban_c}</span></div>`;
-                    html += `<div class="jawaban-item"><strong></strong>${gambarD}<input type="checkbox"><span class="item-item">${data.jawaban_d}</span></div>`;
-                    if(data.jawaban_e || data.gambar_e) {
-                         html += `<div class="jawaban-item"><strong></strong>${gambarE}<input type="checkbox"><span class="item-item">${data.jawaban_e}</span></div>`;
+                } else if (data.question_model == 2) {
+                    html +=
+                        `<div class="jawaban-item"><strong></strong>${gambarA}<input type="checkbox"><span class="item-item">${data.jawaban_a}</span></div>`;
+                    html +=
+                        `<div class="jawaban-item"><strong></strong>${gambarB}<input type="checkbox"><span class="item-item">${data.jawaban_b}</span></div>`;
+                    html +=
+                        `<div class="jawaban-item"><strong></strong>${gambarC}<input type="checkbox"><span class="item-item">${data.jawaban_c}</span></div>`;
+                    html +=
+                        `<div class="jawaban-item"><strong></strong>${gambarD}<input type="checkbox"><span class="item-item">${data.jawaban_d}</span></div>`;
+                    if (data.jawaban_e || data.gambar_e) {
+                        html +=
+                            `<div class="jawaban-item"><strong></strong>${gambarE}<input type="checkbox"><span class="item-item">${data.jawaban_e}</span></div>`;
 
                     }
-                   
+
+                } else if (data.question_model == 3) {
+                    var itemTable = '';
+                    if (data.jawaban_a || data.gambar_a) {
+                        itemTable += `<tr>
+                                    <td>1</td>
+                                    <td>${gambarA}${data.jawaban_a}</td>
+                                    <td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
+                                </tr>`;
+                    }
+                    if (data.jawaban_b || data.gambar_b) {
+                        itemTable += `<tr>
+                                    <td>2</td>
+                                    <td>${gambarB}${data.jawaban_b}</td>
+                                    <td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
+                                </tr>`;
+                    }
+
+                    if (data.jawaban_c || data.gambar_c) {
+                        itemTable += `<tr>
+                                    <td>3</td>
+                                    <td>${gambarC}${data.jawaban_c}</td>
+                                    <td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
+                                </tr>`;
+                    }
+
+                    if (data.jawaban_d || data.gambar_d) {
+                        itemTable += `<tr>
+                                    <td>4</td>
+                                    <td>${gambarD}${data.jawaban_d}</td>
+                                    <td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
+                                </tr>`;
+                    }
+
+                    if (data.jawaban_e || data.gambar_e) {
+                        itemTable += `<tr>
+                                    <td>5</td>
+                                    <td>${gambarE}${data.jawaban_e}</td>
+                                    <td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
+                                </tr>`;
+                    }
+
+
+
+                    html += `<table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Pernyataan</th>
+                                        <th><center>Benar</center></th>
+                                        <th><center>Salah</center></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${itemTable}
+                                    </tbody>
+                                </table>`;
+
+                    if (data.jawaban_a || data.gambar_a) {
+
+
+                    }
+
                 }
                 html += '</div>';
 
