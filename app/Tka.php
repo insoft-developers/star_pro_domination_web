@@ -19,4 +19,9 @@ class Tka extends Model
     {
         return $this->hasMany(TkaDetail::class, 'tka_id', 'id');
     }
+
+    public function session():HasMany
+    {
+        return $this->hasMany(TkaSession::class, 'tka_id', 'id');
+    }
 }

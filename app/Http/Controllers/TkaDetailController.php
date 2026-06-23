@@ -277,6 +277,7 @@ class TkaDetailController extends Controller
                 $input['kunci_jawaban'] = '';
             }
         } else if ($request->question_model == '3') {
+            
             $kunci = $request->kunci_jawaban;
 
             if (! empty($kunci)) {

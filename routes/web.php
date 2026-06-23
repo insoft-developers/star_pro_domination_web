@@ -181,3 +181,6 @@ Route::get('/tka_detail_table', 'TkaDetailController@table')->name('tka.detail.t
 Route::post('/delete_tka_image', 'TkaDetailController@deleteImage')->name('delete.tka.image');
 Route::get('/generate_nomor_soal_tka', 'TkaDetailController@generateNomorSoal');
 Route::get('/lihat_soal_tka', 'TkaDetailController@lihatSoal');
+Route::resource('/tka_session', 'TkaSessionController');
+Route::get('/tka_session_table', 'TkaSessionController@table')->name('tka.session.table');
+Route::get('/tka_session_detial_table', 'TkaSessionController@detailTable')->name('tka.session.detail.table');

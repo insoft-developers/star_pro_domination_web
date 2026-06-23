@@ -513,6 +513,51 @@
         var jawabanC = CKEDITOR.instances.jawaban_c.getData();
         var jawabanD = CKEDITOR.instances.jawaban_d.getData();
         var jawabanE = CKEDITOR.instances.jawaban_e.getData();
+
+        var qm = $("#question_model").val();
+        if(qm == '3') {
+            var kunciA = $("#kunci_jawaban_a").val();
+            var kunciB = $("#kunci_jawaban_b").val();
+            var kunciC = $("#kunci_jawaban_c").val();
+            var kunciD = $("#kunci_jawaban_d").val();
+            var kunciE = $("#kunci_jawaban_e").val();
+
+            if( (kunciA && !jawabanA) || (!kunciA && jawabanA)) {
+                alert("Pernyataan A belum diisi atau Hapus Kunci Jawaban A");
+                hideLoading();
+                return false;
+            }
+
+            if((kunciB && !jawabanB) || (!kunciB && jawabanB) ) {
+                alert("Pernyataan B belum diisi atau Hapus Kunci Jawaban B");
+                hideLoading();
+                return false;
+            }
+
+             if((kunciC && !jawabanC) || (!kunciC && jawabanC) ) {
+               alert("Pernyataan C belum diisi atau Hapus Kunci Jawaban C");
+               hideLoading(); 
+               return false;
+            }
+
+             if((kunciD && !jawabanD) || (!kunciD && jawabanD) ) {
+               alert("Pernyataan D belum diisi atau Hapus Kunci Jawaban D");
+               hideLoading(); 
+               return false;
+            }
+
+             if((kunciE && !jawabanE) || (!kunciE && jawabanE) ) {
+               alert("Pernyataan E belum diisi atau Hapus Kunci Jawaban E");
+               hideLoading(); 
+               return false;
+            }
+
+            
+            
+        }
+        
+        
+
         form_data.append('soal', soal);
         form_data.append('soal_bawah', soalBawah);
         form_data.append('jawaban_a', jawabanA);

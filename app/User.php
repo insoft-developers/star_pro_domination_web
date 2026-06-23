@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Laravel\Passport\HasApiTokens;
 
@@ -40,6 +41,11 @@ class User extends Authenticatable
     
     public function kelas() {
         return $this->belongsTo(Kelas::class, 'id_kelas', 'id');
+    }
+
+    public function sekolah():BelongsTo
+    {
+        return $this->belongsTo(School::class, 'school_id', 'id');
     }
     
 }

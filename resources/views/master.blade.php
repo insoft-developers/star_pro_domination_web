@@ -229,6 +229,8 @@
             $view == 'exam' ||
             $view == 'tka' ||
             $view == 'tka-detail' ||
+            $view == 'tka-session' ||
+            $view == 'tka-session-detail' ||
             $view == 'tkp' ||
             $view == 'tkp-detail')
         <!-- DataTables -->
@@ -430,6 +432,16 @@
     @if($view == 'tka')
         @include('scripts.tka_js')
     @endif
+
+    @if($view == 'tka-session')
+        @include('scripts.tka_session_js')
+    @endif
+
+
+    @if($view == 'tka-session-detail')
+        @include('scripts.tka_session_detail_js')
+    @endif
+
 
     @if($view == 'tka-detail' || $view == 'create-tka-page')
         @include('scripts.tka_detail_js')
