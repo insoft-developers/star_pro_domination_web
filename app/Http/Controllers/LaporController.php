@@ -13,6 +13,8 @@ use App\TkpDetail;
 use App\Tkp;
 
 use App\Notif;
+use App\Tka;
+use App\TkaDetail;
 use Session;
 class LaporController extends Controller
 {
@@ -112,6 +114,11 @@ class LaporController extends Controller
                 else if($lapor->kategori == 'tkp') {
                     $data = TkpDetail::findorFail($lapor->id_soal);
                     $header = Tkp::findorFail($data->id_tkp);
+                }
+
+                 else if($lapor->kategori == 'tka') {
+                    $data = TkaDetail::findorFail($lapor->id_soal);
+                    $header = Tka::findorFail($data->tka_id);
                 }
                 else {
                     $data = BankSoalDetail::findorFail($lapor->id_soal);

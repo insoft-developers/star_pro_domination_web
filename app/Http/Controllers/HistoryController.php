@@ -18,6 +18,7 @@ use App\BankSoalDetail;
 use App\BankSoalAnswer;
 use App\BankSoalSession;
 use App\Tka;
+use App\TkaDetail;
 use App\TkaSession;
 use App\TryoutReport;
 
@@ -28,7 +29,7 @@ use App\TkpAnswer;
 
 class HistoryController extends Controller
 {
-    public function quiz($id) {
+    public function quiz(String $id) {
         $session = QuizSession::where('user_id', $id)->get();
         
         $rows = [];
@@ -55,7 +56,7 @@ class HistoryController extends Controller
     }
     
     
-    public function tkp($id) {
+    public function tkp(String $id) {
         $session = TkpSession::where('id_user', $id)->get();
         
         $rows = [];
@@ -108,7 +109,7 @@ class HistoryController extends Controller
     
     
     
-    public function tryout($id) {
+    public function tryout(String $id) {
         $session = TryoutSession::where('id_user', $id)->get();
         
         $rows = [];
@@ -134,7 +135,7 @@ class HistoryController extends Controller
     }
     
     
-    public function banksoal($id) {
+    public function banksoal(String $id) {
         $session = BankSoalSession::where('id_user', $id)->get();
         
         $rows = [];
@@ -159,7 +160,7 @@ class HistoryController extends Controller
     
     
     
-    public function lapor($id) {
+    public function lapor(String $id) {
         $lapor = TryoutReport::where('id_user', $id)->get();
       
         $rows = [];
@@ -170,7 +171,18 @@ class HistoryController extends Controller
                 $soal = TryoutDetail::findorFail($s->id_soal);
                 $header = TryOut::findorFail($soal->id_tryout);
                 $judul = "TRY OUT";
-            } else {
+            } else if($s->kategori == 'tkp') {
+                $soal = TkpDetail::findorFail($s->id_soal);
+                $header = Tkp::findorFail($soal->id_tkp);
+                $judul = "TKP";
+            }
+             else if($s->kategori == 'tka') {
+                $soal = TkaDetail::findorFail($s->id_soal);
+                $header = Tka::findorFail($soal->tka_id);
+                $judul = "TKA";
+            }
+
+            else  {
                 $soal = BankSoalDetail::findorFail($s->id_soal);
                 $header = BankSoal::findorFail($soal->id_bank_soal);
                 $judul = "BANK SOAL";
