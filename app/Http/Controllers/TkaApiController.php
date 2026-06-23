@@ -63,14 +63,73 @@ class TkaApiController extends Controller
     {
         $input = $request->all();
 
+        // $soal = TkaDetail::find($input['id']);
+        // if ($soal->kunci_jawaban == $input['jawaban_user']) {
+        //     $hasil_jawaban = 'benar';
+        //     $score = $soal->score;
+        // } else {
+        //     $hasil_jawaban = 'salah';
+        //     $score = 0;
+        // }
+
+
         $soal = TkaDetail::find($input['id']);
-        if ($soal->kunci_jawaban == $input['jawaban_user']) {
-            $hasil_jawaban = 'benar';
-            $score = $soal->score;
-        } else {
-            $hasil_jawaban = 'salah';
-            $score = 0;
+
+        $hasil_jawaban = 'salah';
+        $score = 0;
+
+        switch ($soal->question_model) {
+
+            // Model 1 : jawaban tunggal
+            case 1:
+                if (
+                    strtoupper(trim($soal->kunci_jawaban)) ==
+                    strtoupper(trim($input['jawaban_user']))
+                ) {
+                    $hasil_jawaban = 'benar';
+                    $score = $soal->score;
+                }
+                break;
+
+            // Model 2 & 3 : urutan tidak penting
+            case 2:
+            case 3:
+
+                $kunci = array_map('trim', explode('|', $soal->kunci_jawaban));
+                $jawaban = array_map('trim', explode('|', $input['jawaban_user']));
+
+                sort($kunci);
+                sort($jawaban);
+
+                if ($kunci == $jawaban) {
+                    $hasil_jawaban = 'benar';
+                    $score = $soal->score;
+                }
+
+                break;
+
+            // Model 4 : salah satu jawaban diperbolehkan
+            case 4:
+
+                $jawabanUser = strtoupper(
+                    preg_replace('/\s+/', '', trim($input['jawaban_user']))
+                );
+
+                $opsiKunci = array_map(function ($item) {
+                    return strtoupper(
+                        preg_replace('/\s+/', '', trim($item))
+                    );
+                }, explode('|', $soal->kunci_jawaban));
+
+                if (in_array($jawabanUser, $opsiKunci)) {
+                    $hasil_jawaban = 'benar';
+                    $score = $soal->score;
+                }
+
+                break;
         }
+
+
 
         $jwb = TkaAnswer::where('user_id', $input['user_id'])
             ->where('session_id', $input['session_id'])
@@ -268,6 +327,4 @@ class TkaApiController extends Controller
             "data" => $rows
         ]);
     }
-
-    
 }
