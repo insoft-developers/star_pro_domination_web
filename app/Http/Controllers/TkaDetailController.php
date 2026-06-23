@@ -147,7 +147,6 @@ class TkaDetailController extends Controller
                 $button .= '</center>';
 
                 return $button;
-                   
             })->rawColumns(['action', 'is_active', 'soal', 'gambar_soal', 'soal_bawah', 'jawaban_a', 'jawaban_b', 'jawaban_c', 'jawaban_d', 'jawaban_e', 'kunci_jawaban'])
             ->make(true);
     }
@@ -197,7 +196,6 @@ class TkaDetailController extends Controller
             $rules['jawaban_b'] = 'required';
             $rules['jawaban_c'] = 'required';
             $rules['jawaban_d'] = 'required';
-           
         }
 
         if ($request->question_model == '3') {
@@ -280,8 +278,13 @@ class TkaDetailController extends Controller
             }
         } else if ($request->question_model == '3') {
             $kunci = $request->kunci_jawaban;
+
             if (! empty($kunci)) {
-                $kunciJawaban = implode("|", $kunci);
+
+                $kunciJawaban = implode('|', array_filter($kunci, function ($item) {
+                    return $item !== null && $item !== 'null';
+                }));
+
                 $input['kunci_jawaban'] = $kunciJawaban;
             } else {
                 $input['kunci_jawaban'] = '';
@@ -352,7 +355,6 @@ class TkaDetailController extends Controller
             $rules['jawaban_b'] = 'required';
             $rules['jawaban_c'] = 'required';
             $rules['jawaban_d'] = 'required';
-           
         }
 
         if ($request->question_model == '3') {
@@ -463,7 +465,10 @@ class TkaDetailController extends Controller
         } else if ($request->question_model == '3') {
             $kunci = $request->kunci_jawaban;
             if (! empty($kunci)) {
-                $kunciJawaban = implode("|", $kunci);
+                $kunciJawaban = implode('|', array_filter($kunci, function ($item) {
+                    return $item !== null && $item !== 'null';
+                }));
+
                 $input['kunci_jawaban'] = $kunciJawaban;
             } else {
                 $input['kunci_jawaban'] = '';
@@ -565,12 +570,12 @@ class TkaDetailController extends Controller
         $input = $request->all();
         $tka = TkaDetail::where('tka_id', $input['filter_id'])
             ->max('no_soal');
-        if($tka) {
+        if ($tka) {
             $nomorBaru = $tka + 1;
         } else {
             $nomorBaru = 1;
         }
-        
+
 
         return response()->json($nomorBaru);
     }
