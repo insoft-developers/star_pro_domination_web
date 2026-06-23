@@ -9,8 +9,8 @@ use App\Kelas;
 use App\TryoutSession;
 use App\User;
 use App\TryoutAnswer;
-use Session;
 use DB;
+use Illuminate\Support\Facades\Session;
 
 class WebTryoutSessionController extends Controller
 {
@@ -24,7 +24,7 @@ class WebTryoutSessionController extends Controller
     }
 
 
-    public function sessionDetail($id)
+    public function sessionDetail(String $id)
     {
         if (! Session::has('id')) {
             return Redirect(route('login'));
@@ -34,7 +34,7 @@ class WebTryoutSessionController extends Controller
         return view('tryout.exam', compact('view', 'tryout'));
     }
 
-    public function detailExam($id)
+    public function detailExam(String $id)
     {
         $answer = TryoutAnswer::where('id_session', $id)->orderBy('id')->get();
         $ht = '';

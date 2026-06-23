@@ -79,7 +79,7 @@ class TkaApiController extends Controller
         $sesi = TkaSession::find($input['session_id']);
 
         $tka = Tka::find($sesi->tka_id);
-        $waktu = $tka->time_limit;
+        $waktu = $tka->time_limit ?? 0;
 
         if (empty($jwb)) {
             $lama = $waktu - $input['waktu_selesai'];
@@ -105,6 +105,7 @@ class TkaApiController extends Controller
         $answer->status_jawaban = 1;
         $answer->hasil_jawaban = $hasil_jawaban;
         $answer->score = $score;
+        $answer->init_time = $waktu;
         $query = $answer->save();
         if ($query) {
             return response()->json([

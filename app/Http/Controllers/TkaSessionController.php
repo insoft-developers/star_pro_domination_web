@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Tka;
+use App\TkaAnswer;
 use App\TkaSession;
 use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
@@ -166,12 +167,11 @@ class TkaSessionController extends Controller
             ->addColumn('resume', function ($row) {
                 $score_siswa = optional($row->answer)->sum('score') ?? 0;
                 $target_score =  optional($row->tka)->target_score ?? 0;
-                if($score_siswa >= $target_score) {
+                if ($score_siswa >= $target_score) {
                     return 'LULUS';
                 } else {
                     return 'TIDAK LULUS';
                 }
-                
             })
             ->addColumn('date', function ($row) {
                 return date('d-m-Y H:i', strtotime($row->created_at));
@@ -179,7 +179,7 @@ class TkaSessionController extends Controller
 
 
             ->addColumn('detail', function ($row) {
-               $button = '';
+                $button = '';
                 $button .= '<center>';
                 $button .= '<a onclick="listData(' . $row->id . ')" style="width:25px;" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-list"></i></a>';
                 $button .= '<br>';
@@ -188,5 +188,38 @@ class TkaSessionController extends Controller
                 return $button;
             })->rawColumns(['detail'])
             ->make(true);
+    }
+
+    public function showDetail(Request $request)
+    {
+        $input = $request->all();
+        $id = $input['id'];
+
+        $answer = TkaAnswer::with('details')->where('session_id', $id)->orderBy('id')->get();
+        $ht = '';
+        $ht .= '<table class="table table-bordered table-striped">';
+        $ht .= '<thead>';
+        $ht .= '<tr><th>No Soal</th><th>Jawaban Siswa</th><th>Kunci Jawaban</th><th>Waktu</th><th>Hasil</th><th>Score</th></tr>';
+        $ht .= '</thead>';
+        foreach ($answer as $index => $key) {
+
+            if ($index == 0) {
+                $selisih = $key->init_time - $answer[$index]->waktu_selesai;
+            } else {
+                $selisih = $answer[$index - 1]->waktu_selesai - $answer[$index]->waktu_selesai;
+            }
+
+            $ht .= '<tr><td>' . $key->no_soal . '</td><td>' . strtoupper($key->jawaban_user) . '</td><td><center>' . strtoupper(optional($key->details)->kunci_jawaban) . '</center></td><td style="text-align:right";>' . $selisih . ' detik</td><td><center>' . strtoupper($key->hasil_jawaban) . '</center></td><td style="text-align:right;">' . $key->score . '</td></tr>';
+        }
+        $ht .= '</table>';
+        return $ht;
+    }
+
+    public function sessionDelete(String $id)
+    {
+        TkaAnswer::where('session_id', $id)->delete();
+        return TkaSession::destroy($id);
+
+        
     }
 }

@@ -184,3 +184,5 @@ Route::get('/lihat_soal_tka', 'TkaDetailController@lihatSoal');
 Route::resource('/tka_session', 'TkaSessionController');
 Route::get('/tka_session_table', 'TkaSessionController@table')->name('tka.session.table');
 Route::get('/tka_session_detial_table', 'TkaSessionController@detailTable')->name('tka.session.detail.table');
+Route::get('/tka_show_session_detail', 'TkaSessionController@showDetail');
+Route::delete('/tka_session_delete/{id}', 'TkaSessionController@sessionDelete');
