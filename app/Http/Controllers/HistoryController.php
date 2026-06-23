@@ -17,6 +17,8 @@ use App\BankSoal;
 use App\BankSoalDetail;
 use App\BankSoalAnswer;
 use App\BankSoalSession;
+use App\Tka;
+use App\TkaSession;
 use App\TryoutReport;
 
 use App\Tkp;
@@ -68,6 +70,32 @@ class HistoryController extends Controller
             $row['kelas'] = $kelas->nama_kelas;
             $row['judul'] = $header->judul;
             $row['waktu_kuis'] = $header->time_limit;
+            
+            array_push($rows,$row);
+        }
+        
+        return response()->json([
+           "success" => true,
+           "data" => $rows
+        ]);
+    }
+
+
+    public function tka(String $id) {
+        $session = TkaSession::with(['tka','user'])->where('user_id', $id)->get();
+        
+        $rows = [];
+        foreach($session as $s) {
+            // $user = User::find($id);
+            // $header = Tka::find($s->id_tkp);
+            // $kelas = Kelas::findorFail($user->id_kelas);
+            
+            $row['sesi'] = $s->id;
+            $row['tanggal'] = date('d-m-Y', strtotime($s->created_at));
+            $row['siswa'] = optional($s->user)->name ?? '';
+            $row['kelas'] = optional($s->user)->kelas->nama_kelas ?? '';
+            $row['judul'] = optional($s->tka)->judul ?? '';
+            $row['waktu_kuis'] = optional($s->tka)->time_limit ?? '';
             
             array_push($rows,$row);
         }

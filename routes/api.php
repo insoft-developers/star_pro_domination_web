@@ -53,6 +53,7 @@ use Illuminate\Support\Facades\Route;
  Route::get('banksoal_history/{id}', 'HistoryController@banksoal');
  Route::get('lapor_history/{id}', 'HistoryController@lapor');
  Route::get('tkp_history/{id}', 'HistoryController@tkp');
+ Route::get('tka_history/{id}', 'HistoryController@tka');
  
  Route::post('comment', 'MapelController@comment');
  Route::post('add_comment', 'MapelController@addComment');
