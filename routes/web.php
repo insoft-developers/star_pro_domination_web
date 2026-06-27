@@ -52,6 +52,11 @@ Route::post('delete_tkp_image', 'TkpController@deleteImage');
 Route::post('detail_tkp_delete', 'TkpController@detailTkpDelete');
 Route::post('detail_tkp_delete_all', 'TkpController@detailTkpDeleteAll');
 Route::post('copy_tkp', 'TkpController@copyTkp');
+Route::get('/tkp_session_detail_table', 'TkpSessionController@detailTable')->name('tkp.session.detail.table');
+Route::resource('tkp_session', 'TkpSessionController');
+Route::get('/tkp_session_table', 'TkpSessionController@table')->name('tkp.session.table');
+Route::delete('/tkp_session_delete/{id}', 'TkpSessionController@sessionDelete');
+Route::get('/tkp_show_session_detail', 'TkpSessionController@showDetail');
 
 
 

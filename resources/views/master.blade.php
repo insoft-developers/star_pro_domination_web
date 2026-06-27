@@ -232,6 +232,8 @@
             $view == 'tka-session' ||
             $view == 'tka-session-detail' ||
             $view == 'tkp' ||
+            $view == 'tkp-session' ||
+             $view == 'tkp-session-detail' ||
             $view == 'tkp-detail')
         <!-- DataTables -->
         <script src="{{ asset('theme') }}/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
@@ -367,6 +369,14 @@
 
     @if ($view == 'tkp')
        @include('scripts.tkp_js')
+    @endif
+
+    @if ($view == 'tkp-session')
+       @include('scripts.tkp_session_js')
+    @endif
+
+    @if ($view == 'tkp-session-detail')
+       @include('scripts.tkp_session_detail_js')
     @endif
 
     @if ($view == 'tkp-detail')

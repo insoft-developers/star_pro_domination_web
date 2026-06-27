@@ -372,7 +372,7 @@ $sett="";
           </a>
           <ul class="treeview-menu">
             <li class="{{$tekape}}"><a href="{{ url('tkp') }}"><i class="fa fa-circle-o"></i> TKP</a></li>
-            <li class="{{$tkp_session}}"><a href="{{ url('extkp') }}"><i class="fa fa-circle-o"></i> Session</a></li>
+            <li class="{{$tkp_session}}"><a href="{{ url('tkp_session') }}"><i class="fa fa-circle-o"></i> Session</a></li>
             
           </ul>
         </li>

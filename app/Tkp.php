@@ -3,21 +3,14 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Tkp extends Model
 {
-    protected $fillable = [
-      "judul",
-      "id_kelas",
-      "is_active",
-      "is_repeated",
-      "is_skipped",
-      "time_limit",
-      "target_score",
-      "warna_soal",
-      "warna_tulisan",
-      "short_name",
-      "warna_jawaban",
-      "warna_tulisan_jawaban",
-    ];
+    protected $guarded = ['id'];
+
+    public function session():HasMany
+    {
+      return $this->hasMany(TkpSession::class, 'id_tkp', 'id');
+    }
 }

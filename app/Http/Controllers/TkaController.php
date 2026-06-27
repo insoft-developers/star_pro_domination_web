@@ -74,7 +74,6 @@ class TkaController extends Controller
 
             ->addColumn('action', function ($row) {
                 return '<center><a href="'.url('/tka_detail/'.$row->id).'" style="width:25px;margin-bottom:5px;" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-list"></i></a>' .
-                    '<br><a onclick="copyData(' . $row->id . ')" style="margin-bottom:4px;" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-copy"></i></a>' .
                     '<br><a onclick="editData(' . $row->id . ')" style="width:25px;margin-bottom:5px;" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></a>' .
                     '<br><a onclick="deleteData(' . $row->id . ')" style="width:25px;" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></a></center>';
             })->rawColumns(['action','id_kelas', 'is_active', 'is_repeated', 'is_skipped', 'warna', 'warna_jawaban','judul','time_limit'])
