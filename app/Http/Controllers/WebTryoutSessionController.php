@@ -9,7 +9,7 @@ use App\Kelas;
 use App\TryoutSession;
 use App\User;
 use App\TryoutAnswer;
-use DB;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 
 class WebTryoutSessionController extends Controller
@@ -167,13 +167,21 @@ class WebTryoutSessionController extends Controller
     }
 
 
-    public function tryoutSessionDelete(Request $request) {
+    public function tryoutSessionDelete(Request $request)
+    {
         $input = $request->all();
         TryoutAnswer::where('id_session', $input['id'])->delete();
         TryoutSession::where('id', $input['id'])->delete();
         return response()->json([
             "success" => true,
-        ]);    
-        
+        ]);
+    }
+
+    public function selectedDelete(Request $request)
+    {
+
+
+        TryoutAnswer::whereIn('id_session', $request->ids)->delete();
+        return TryoutSession::whereIn('id', $request->ids)->delete();
     }
 }

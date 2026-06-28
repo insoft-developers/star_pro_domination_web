@@ -10,8 +10,8 @@ use App\BankSoalAnswer;
 use App\BankSoalDetail;
 use App\Kelas;
 use App\User;
-use Session;
-use DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class WebBankSessionController extends Controller
 {
@@ -158,5 +158,14 @@ class WebBankSessionController extends Controller
         }
         $ht .= '</table>';
         return $ht;
+    }
+
+    public function selectedDelete(Request $request)
+    {
+       
+
+        BankSoalAnswer::whereIn('id_session', $request->ids)->delete();
+        return BankSoalSession::whereIn('id', $request->ids)->delete();
+        
     }
 }

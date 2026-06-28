@@ -1,6 +1,78 @@
  <script>
      var filterId = window.location.pathname.split('/').pop();
 
+     $(document).on('change', '#check_all', function() {
+         $('.check_item').prop('checked', $(this).prop('checked'));
+
+         toggleDeleteButton();
+     });
+
+     $(document).on('change', '.check_item', function() {
+
+         $('#check_all').prop(
+             'checked',
+             $('.check_item:checked').length == $('.check_item').length
+         );
+
+         toggleDeleteButton();
+     });
+
+     function toggleDeleteButton() {
+
+         if ($('.check_item:checked').length > 0) {
+             $('#btn_delete_selected').prop('disabled', false);
+         } else {
+             $('#btn_delete_selected').prop('disabled', true);
+         }
+
+     }
+
+
+     $('#btn_delete_selected').click(function() {
+
+         var ids = [];
+
+         $('.check_item:checked').each(function() {
+             ids.push($(this).val());
+         });
+
+         console.log(ids);
+
+     });
+
+
+     $('#btn_delete_selected').click(function() {
+
+         var ids = [];
+
+         $('.check_item:checked').each(function() {
+             ids.push($(this).val());
+         });
+
+         if (ids.length == 0) {
+             alert('Pilih data terlebih dahulu');
+             return;
+         }
+
+         if (confirm('Yakin ingin menghapus data yang dipilih?')) {
+
+             $.ajax({
+                 url: "{{ route('tkp.selected.delete') }}",
+                 type: "POST",
+                 data: {
+                     _token: "{{ csrf_token() }}",
+                     ids: ids
+                 },
+                 success: function(res) {
+                     $('#tkp_session_detail_table').DataTable().ajax.reload();
+                 }
+             });
+
+         }
+
+     });
+
+
 
      var table = $('#tkp_session_detail_table').DataTable({
          dom: 'Blfrtip',
@@ -21,9 +93,18 @@
              },
          },
          order: [
-             [0, "desc"]
+             [1, "desc"]
          ],
          columns: [{
+                 data: 'id',
+                 render: function(data, type, row) {
+                     return `
+            <input type="checkbox" class="check_item" value="${row.id}">
+        `;
+                 },
+                 orderable: false,
+                 searchable: false
+             }, {
                  data: 'id',
                  name: 'id'
              },

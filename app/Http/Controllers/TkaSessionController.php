@@ -219,7 +219,15 @@ class TkaSessionController extends Controller
     {
         TkaAnswer::where('session_id', $id)->delete();
         return TkaSession::destroy($id);
+    }
 
+
+    public function selectedDelete(Request $request)
+    {
+       
+
+        TkaAnswer::whereIn('session_id', $request->ids)->delete();
+        return TkaSession::whereIn('id', $request->ids)->delete();
         
     }
 }

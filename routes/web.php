@@ -57,6 +57,8 @@ Route::resource('tkp_session', 'TkpSessionController');
 Route::get('/tkp_session_table', 'TkpSessionController@table')->name('tkp.session.table');
 Route::delete('/tkp_session_delete/{id}', 'TkpSessionController@sessionDelete');
 Route::get('/tkp_show_session_detail', 'TkpSessionController@showDetail');
+Route::post('/tkp_selected_delete', 'TkpSessionController@selectedDelete')->name('tkp.selected.delete');
+
 
 
 
@@ -85,6 +87,7 @@ Route::post('detail_delete_all', 'WebTryoutController@detailDeleteAll');
 Route::get('tryout_laporan', 'WebTryoutController@laporan');
 Route::get('export', 'WebTryoutController@export');
 Route::post('display_tryout_report', 'WebTryoutController@displayReport');
+Route::post('/tryout_selected_delete', 'WebTryoutSessionController@selectedDelete')->name('tryout.selected.delete');
 
 Route::resource('siswa', 'WebSiswaController');
 Route::get('siswa_table', 'WebSiswaController@siswaTable')->name('siswaTable');
@@ -134,6 +137,7 @@ Route::get('banksoal_session_table', 'WebBankSessionController@bankSoalSessionTa
 Route::get('list_ikut_banksoal/{id}', 'WebBankSessionController@ikutBankSoal');
 Route::get('bank_soal_exam_table/{id}', 'WebBankSessionController@bankSoalExamTable')->name('bankSoalExamTable');
 Route::get('banksoal_detail_exam/{id}', 'WebBankSessionController@detailExam');
+Route::post('/banksoal_selected_delete', 'WebBankSessionController@selectedDelete')->name('banksoal.selected.delete');
 
 Route::resource('question', 'WebQuestionController');
 Route::get('question_table', 'WebQuestionController@questionTable')->name('questionTable');
@@ -191,3 +195,5 @@ Route::get('/tka_session_table', 'TkaSessionController@table')->name('tka.sessio
 Route::get('/tka_session_detial_table', 'TkaSessionController@detailTable')->name('tka.session.detail.table');
 Route::get('/tka_show_session_detail', 'TkaSessionController@showDetail');
 Route::delete('/tka_session_delete/{id}', 'TkaSessionController@sessionDelete');
+
+Route::post('/tka_seleted_delete', 'TkaSessionController@selectedDelete')->name('tka.selected.delete');

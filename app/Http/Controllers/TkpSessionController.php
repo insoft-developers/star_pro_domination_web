@@ -228,4 +228,13 @@ class TkpSessionController extends Controller
 
         
     }
+
+    public function selectedDelete(Request $request)
+    {
+       
+
+        TkpAnswer::whereIn('id_session', $request->ids)->delete();
+        return TkpSession::whereIn('id', $request->ids)->delete();
+        
+    }
 }
